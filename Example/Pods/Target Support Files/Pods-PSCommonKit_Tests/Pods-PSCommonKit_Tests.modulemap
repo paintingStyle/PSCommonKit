@@ -1,0 +1,6 @@
+framework module Pods_PSCommonKit_Tests {
+  umbrella header "Pods-PSCommonKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

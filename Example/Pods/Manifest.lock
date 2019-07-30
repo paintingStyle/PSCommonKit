@@ -1,0 +1,16 @@
+PODS:
+  - PSCommonKit (0.1.0)
+
+DEPENDENCIES:
+  - PSCommonKit (from `../`)
+
+EXTERNAL SOURCES:
+  PSCommonKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PSCommonKit: 52ff73603e6cb1518032b75a964f8402370d4af8
+
+PODFILE CHECKSUM: 3fa163d1988bcb0743c64ecd1e9466613cda3e0f
+
+COCOAPODS: 1.6.2
