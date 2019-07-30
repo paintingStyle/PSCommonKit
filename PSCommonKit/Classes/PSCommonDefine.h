@@ -176,7 +176,7 @@ green:((float)((hexValue & 0x00FF00) >> 8))/255.0 \
 blue:((float)(hexValue & 0x0000FF))/255.0 \
 alpha:alphaValue]
 
-#define PSColorFromRGB(rgbValue) UIColorFromRGBA(rgbValue, 1.0)
+#define PSColorFromRGB(rgbValue) PSColorFromRGBA(rgbValue, 1.0)
 
 #define PS_RGB_COLOR(_red, _green, _blue) [UIColor colorWithRed:(_red)/255.0f green:(_green)/255.0f blue:(_blue)/255.0f alpha:1]
 
@@ -210,11 +210,11 @@ alpha:alphaValue]
  *	@param	object    需存储的对象
  *	@param	key    对应的key
  */
-#define PS_USERDEFAULTS_SET_OBJECT(object, key)                                                                                                 \
-({                                                                                                                                             \
-NSUserDefaults * defaults = [NSUserDefaults standardUserDefaults];                                                                         \
-[defaults setObject:object forKey:key];                                                                                                    \
-[defaults synchronize];                                                                                                                    \
+#define PS_USERDEFAULTS_SET_OBJECT(object, key) \
+({\
+NSUserDefaults * defaults = [NSUserDefaults standardUserDefaults];\
+[defaults setObject:object forKey:key];\
+[defaults synchronize];\
 })
 
 /**
