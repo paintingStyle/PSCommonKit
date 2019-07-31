@@ -9,6 +9,8 @@
 #ifndef PSCommonDefine_h
 #define PSCommonDefine_h
 
+#import <UIKit/UIKit.h>
+
 /*-----------------------------分割线-------------------------------*/
 
 #pragma mark - 调试DEBUG

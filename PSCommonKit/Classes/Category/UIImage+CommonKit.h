@@ -107,6 +107,16 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (UIImage * _Nullable)ps_fixPictureWhitePixelWithFixValue:(NSInteger)fix;
 
+
+/**
+ 压缩图片，将图片大小控制到1M之内
+ 仿照iOS-微信朋友圈图片压缩算法
+ https://blog.csdn.net/u014220518/article/details/58136932
+
+ @param block 完成回调
+ */
+- (void)compressWithBlock:(void(^)(NSData *data, UIImage *image))block;
+
 @end
 
 NS_ASSUME_NONNULL_END
