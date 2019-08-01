@@ -21,12 +21,44 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString *)ps_devicePlatform;
 
 /**
+ *  Return the CFBundleShortVersionString
+ *  Example: "CFBundleShortVersionString"
+ *
+ *  @return Return the appVersion
+ */
++ (NSString *)ps_appVersion;
+
+/**
+ *  Return the CFBundleName
+ *  Example: "CFBundleName"
+ *
+ *  @return Return the ps_appName
+ */
++ (NSString *)ps_appName;
+
+/**
  *  Return the user-friendly device platform string
  *  Example: "iPad Air (Cellular)"
  *
  *  @return Return the user-friendly device platform string
  */
 + (NSString *)ps_devicePlatformString;
+
+/**
+ *  Return the NXGetLocalArchInfo
+ *  Example: "NXGetLocalArchInfo"
+ *
+ *  @return Return the deviceCPUArchiveName
+ */
++ (NSString *)ps_deviceCPUArchiveName;
+
+/**
+ *  Return the preferredLocalizations
+ *  Example: "preferredLocalizations)"
+ *
+ *  @return Return the deviceLocalLanguage
+ */
++ (NSString *)ps_deviceLocalLanguage;
 
 /**
  *  Check if the current device is an iPad
@@ -69,6 +101,14 @@ NS_ASSUME_NONNULL_BEGIN
  *  @return Return YES if it has a Retina HD display, NO if not
  */
 + (BOOL)ps_isRetinaHD;
+
+/**
+ *  Return the iOS version without the subversion
+ *  Example: 7
+ *
+ *  @return Return the iOS version
+ */
++ (NSString *)ps_iOSVersionString;
 
 /**
  *  Return the iOS version without the subversion
@@ -147,6 +187,13 @@ NS_ASSUME_NONNULL_BEGIN
  *  @return Return a unique identifier as a NSString
  */
 + (NSString *)ps_uniqueIdentifier;
+
+/**
+ *  Generate UUIDString
+ *
+ *  @return Return a UUIDString
+ */
++ (NSString *)ps_UUIDString;
 
 @end
 

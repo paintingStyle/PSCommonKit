@@ -234,6 +234,7 @@ NSUserDefaults * defaults = [NSUserDefaults standardUserDefaults];\
 
 #define PS_VERSION [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
 #define PS_SYSETMVERSION [[UIDevice currentDevice] systemVersion]
+#define PS_FORMATSTRING(fmt, ...) [NSString stringWithFormat:fmt, ##__VA_ARGS__]
 
 #define PS_FRAME(x,y,w,h) CGRectMake(x, y, w, h)
 #define PS_POINT(x,y)     CGPointMake(x, y)
