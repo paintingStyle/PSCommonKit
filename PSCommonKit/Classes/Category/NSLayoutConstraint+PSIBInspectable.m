@@ -11,40 +11,35 @@
 
 @implementation NSLayoutConstraint (PSIBInspectable)
 
-- (void)setPs_autoAdaptW:(BOOL)ps_autoAdaptW {
-    
-    if (!ps_autoAdaptW) { return; }
-    
-    self.constant = PS_LAYOUT_W(self.constant);
+- (void)setPs_adaptW:(BOOL)ps_adaptW {
+	if (!ps_adaptW) { return; }
+	
+	self.constant = PS_LAYOUT_W(self.constant);
 }
 
-- (BOOL)ps_autoAdaptW {
-    
-    return self.ps_autoAdaptW;
+- (BOOL)ps_adaptW {
+	return self.ps_adaptW;
 }
 
-- (void)setPs_autoAdaptH:(BOOL)ps_autoAdaptH {
-    
-    if (!ps_autoAdaptH) { return; }
-    
-    self.constant = PS_LAYOUT_H(self.constant);
+- (void)setPs_adaptH:(BOOL)ps_adaptH {
+	if (!ps_adaptH) { return; }
+	
+	self.constant = PS_LAYOUT_H(self.constant);
 }
 
-- (BOOL)ps_autoAdaptH {
-    
-    return self.ps_autoAdaptH;
+- (BOOL)ps_adaptH {
+	return self.ps_adaptH;
 }
 
-- (void)setPs_autoAdaptNavBar:(BOOL)ps_autoAdaptNavBar {
-    
-    if (!ps_autoAdaptNavBar) { return; }
+- (void)setPs_adaptNavBar:(BOOL)ps_adaptNavBar {
+	
+	if (!ps_adaptNavBar) { return; }
 	
 	self.constant = PS_NAV_BAR_H;
 }
 
-- (BOOL)ps_autoAdaptNavBar {
-    
-    return self.ps_autoAdaptNavBar;
+- (BOOL)ps_adaptNavBar {
+	return self.ps_adaptNavBar;
 }
 
 @end

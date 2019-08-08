@@ -59,6 +59,11 @@ typedef NS_ENUM(NSInteger,TransitionDirection) {
 			 shadowRadius:(CGFloat)shadowRadius
 			 cornerRadius:(CGFloat)cornerRadius;
 
+- (void)ps_addShadowWithOffest:(CGSize)ofeest;
+- (void)ps_addShadowWithOffest:(CGSize)ofeest
+						 color:(UIColor *)color;
+- (void)ps_hideShadow;
+
 /** 截屏 */
 - (UIImage *)ps_convertViewToImage;
 

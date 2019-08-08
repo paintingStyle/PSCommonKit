@@ -10,8 +10,8 @@
 
 @interface NSLayoutConstraint (PSIBInspectable)
 
-@property(nonatomic,assign) IBInspectable BOOL ps_autoAdaptNavBar;
-@property(nonatomic,assign) IBInspectable BOOL ps_autoAdaptW;
-@property(nonatomic,assign) IBInspectable BOOL ps_autoAdaptH;
+@property(nonatomic,assign) IBInspectable BOOL ps_adaptNavBar;
+@property(nonatomic,assign) IBInspectable BOOL ps_adaptW;
+@property(nonatomic,assign) IBInspectable BOOL ps_adaptH;
 
 @end

@@ -93,14 +93,14 @@
 		104EADEED6487EB01750AF2F9329378A /* Pods-PSCommonKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PSCommonKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		16E9487E11BC507363B3189722A8077D /* Pods-PSCommonKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSCommonKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1A9DBB49D1D651A6A018165DD665B1B7 /* PSPopupMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PSPopupMenu.h; sourceTree = "<group>"; };
-		22CA8CDBBB29AE2131885A4038B55FFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		22CA8CDBBB29AE2131885A4038B55FFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		236F4C43209B907398D3C3382307D86D /* UIImage+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CommonKit.m"; sourceTree = "<group>"; };
 		27B95048F2AE8B2E4CCFC39B1525C7C9 /* NSArray+LogCommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LogCommonKit.m"; sourceTree = "<group>"; };
 		2BC037D0D4D8DD391FC28CF0F8CF4D50 /* Pods-PSCommonKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PSCommonKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2D2208B096B802B3A3DA507A3A2895D4 /* NSDate+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+CommonKit.h"; sourceTree = "<group>"; };
 		2EC532576AFD1944E50F8AD5D7F1D83E /* UIBarButtonItem+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CommonKit.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		39A4DCDE8DC136EF030AA1A007C6DF47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		39A4DCDE8DC136EF030AA1A007C6DF47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3D17C937BD3EC5D8F8A690850112DA1D /* UIDevice+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+CommonKit.h"; sourceTree = "<group>"; };
 		3D74E551E5F27CB3455419567EDB4CA4 /* UIButton+PSDelayedClick.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PSDelayedClick.m"; sourceTree = "<group>"; };
 		40FA50FCA8E3F1015EF345C7DCAAB8E9 /* UIGestureRecognizer+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+CommonKit.m"; sourceTree = "<group>"; };
@@ -132,8 +132,8 @@
 		914CB6F1A5301521008E759588C78693 /* NSString+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+CommonKit.h"; sourceTree = "<group>"; };
 		928BCC80FE78CE26C1D136071793A01B /* Pods-PSCommonKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PSCommonKit_Tests.modulemap"; sourceTree = "<group>"; };
 		933473F0A1BCB943FA6B6213A2A6F430 /* UIImageView+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CommonKit.m"; sourceTree = "<group>"; };
-		93E3FD809CEE8C6D24BE0644BBC27800 /* PSCommonKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PSCommonKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93E3FD809CEE8C6D24BE0644BBC27800 /* PSCommonKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PSCommonKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DB6C1CD72665FD59A10F8ACA6CA1D97 /* PSCommonKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSCommonKit-umbrella.h"; sourceTree = "<group>"; };
 		9DBA38A0F772807B530D856CB7F3FE9F /* UIButton+PSDelayedClick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+PSDelayedClick.h"; sourceTree = "<group>"; };
 		A1B95D719DA52235E4D8AD894A57D32D /* UIDevice+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+CommonKit.m"; sourceTree = "<group>"; };
@@ -145,11 +145,11 @@
 		B4906AA292BB9CA7C238022BAC3BCA99 /* PSCommonKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSCommonKit-prefix.pch"; sourceTree = "<group>"; };
 		B5EA4430FB44FF682638583228790BA7 /* Pods-PSCommonKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PSCommonKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B7315605AAB5AE213256ECFF669C4850 /* Pods-PSCommonKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PSCommonKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BB3E59C0F392E2D1589C59406E66E8CC /* PSCommonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PSCommonKit.framework; path = PSCommonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB3E59C0F392E2D1589C59406E66E8CC /* PSCommonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PSCommonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD2769FA4F3DEAE54FAE0BA7DF03188 /* UIColor+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CommonKit.m"; sourceTree = "<group>"; };
 		C40B6C95CDC69CFCA7310BF4B6410CDD /* UILabel+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+CommonKit.h"; sourceTree = "<group>"; };
 		C50F7436C1CCAC41E9F37ABC504971F8 /* NSArray+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CommonKit.m"; sourceTree = "<group>"; };
-		CC8EE8944B2CF48531B80CA835367677 /* Pods_PSCommonKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PSCommonKit_Example.framework; path = "Pods-PSCommonKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8EE8944B2CF48531B80CA835367677 /* Pods_PSCommonKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSCommonKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6D0C2FBD9BF38077F152EA9B0C642F /* PSTaskTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PSTaskTimer.m; sourceTree = "<group>"; };
 		CEFABD8CAC9755CF43A815A4FED9FACA /* PSCommonKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PSCommonKit.xcconfig; sourceTree = "<group>"; };
 		CFC1C262C6CB1BD7BA1F438A7D437357 /* UIView+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+CommonKit.h"; sourceTree = "<group>"; };
@@ -169,7 +169,7 @@
 		F38ACBA27F2D1143DFA470FE5837AE05 /* Pods-PSCommonKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PSCommonKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		FBB606E6FF09E7CB0446E1A9CDBD81B3 /* UILabel+PSIBInspectable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+PSIBInspectable.m"; sourceTree = "<group>"; };
 		FBEB048E94078913878D3BF4791F3098 /* PSLimitTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PSLimitTextField.h; sourceTree = "<group>"; };
-		FC3255A453DED69658CB7F00A16C923F /* Pods_PSCommonKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PSCommonKit_Tests.framework; path = "Pods-PSCommonKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3255A453DED69658CB7F00A16C923F /* Pods_PSCommonKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSCommonKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFEF28804BAD655C7AA033BF0625E39A /* UIImageView+PSIBInspectable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+PSIBInspectable.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -744,8 +744,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

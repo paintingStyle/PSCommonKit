@@ -168,6 +168,27 @@ self.automaticallyAdjustsScrollViewInsets = NO;\
 //  <=
 #define PS_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
 
+
+/*-----------------------------分割线-------------------------------*/
+
+#pragma mark - 解决循环引用
+
+#ifndef weakify
+#if __has_feature(objc_arc)
+#define weakify(x) autoreleasepool{} __weak __typeof__(x) __weak_##x##__ = x;
+#else
+#define weakify(x) autoreleasepool{} __block __typeof__(x) __block_##x##__ = x;
+#endif
+#endif
+
+#ifndef strongify
+#if __has_feature(objc_arc)
+#define strongify(x) try{} @finally{} __typeof__(x)x = __weak_##x##__;
+#else
+#define strongify(x) try{} @finally{} __typeof__(x)x = __block_##x##__;
+#endif
+#endif
+
 /*-----------------------------分割线-------------------------------*/
 
 #pragma mark - 自定义颜色

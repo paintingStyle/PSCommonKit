@@ -204,6 +204,27 @@
 	self.layer.masksToBounds = NO;
 }
 
+- (void)ps_addShadowWithOffest:(CGSize)ofeest {
+	
+	self.layer.shadowColor = [UIColor colorWithWhite:0 alpha:0.1].CGColor;
+	self.layer.shadowOffset = ofeest;
+	self.layer.shadowOpacity = 0.8;
+	self.layer.shadowRadius = 5;
+}
+- (void)ps_addShadowWithOffest:(CGSize)ofeest
+						 color:(UIColor *)color {
+	
+	self.layer.shadowColor = color.CGColor;
+	self.layer.shadowOffset = ofeest;
+	self.layer.shadowOpacity = 0.8;
+	self.layer.shadowRadius = 5;
+}
+
+- (void)ps_hideShadow {
+	
+	self.layer.shadowOpacity = 0;
+}
+
 - (UIImage *)ps_convertViewToImage {
 	
 	UIGraphicsBeginImageContext(self.bounds.size);
