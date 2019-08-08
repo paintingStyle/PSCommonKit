@@ -11,6 +11,5 @@
 @interface UILabel (PSIBInspectable)
 
 @property(nonatomic,assign) IBInspectable BOOL ps_autoFont;
-@property(nonatomic,assign) IBInspectable BOOL ps_customFont;
 
 @end

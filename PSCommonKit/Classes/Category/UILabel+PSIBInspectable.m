@@ -23,15 +23,4 @@
     return self.ps_autoFont;
 }
 
-- (void)setPs_customFont:(BOOL)ps_customFont {
-    
-    if (!ps_customFont) { return; }
-    self.font = [UIFont systemFontOfSize:self.font.pointSize];
-}
-
-- (BOOL)ps_customFont {
-    
-    return self.ps_customFont;
-}
-
 @end

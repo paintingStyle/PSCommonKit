@@ -81,9 +81,10 @@
 #define PS_LAYOUT_H(v) ( PS_iPhoneX ? (ceil(((v)/667.0f * 736.0f))) : (ceil(((v)/667.0f * [UIScreen mainScreen].bounds.size.height))) )
 
 /**
- 屏幕比例,已iphone6为基准
+ 屏幕比例,以iphone6为基准
  */
-#define PS_LAYOUT_SCALE ((PS_iPhone4_4s ? 320.0f:PS_SCREEN_WIDTH)/375.0f)
+#define PS_RATIO_H PS_SCREEN_HEIGHT /667.0f
+#define PS_RATIO_W PS_SCREEN_WIDTH /375.0f
 
 /**
  解决在iOS11下 heightForHeaderInSection heightForFooterInSection 方法设置无效的情况及刷新抖动的情况
@@ -142,6 +143,16 @@ self.automaticallyAdjustsScrollViewInsets = NO;\
  *  iPhone6Plus_6sPlus_7Plus设备放大模式
  */
 #define PS_iPhone6Plus_6sPlus_7Plus_BigMode ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2001), [[UIScreen mainScreen]currentMode].size) : NO)
+
+/**
+ *  iPhoneXr
+ */
+#define PS_iPhone_Xr ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(828, 1792), [[UIScreen mainScreen] currentMode].size) : NO)
+
+/**
+ *  iPhoneXsMax
+ */
+#define PS_iPhone_Xs_Max ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2688), [[UIScreen mainScreen] currentMode].size) : NO)
 
 /**
  *  iPhoneX设备
@@ -402,20 +413,13 @@ alpha:1.0];\
 
 /*-----------------------------分割线-------------------------------*/
 
-// iOS11和iPhone X的适配 https://www.jianshu.com/p/3a9ad4f0fa32?appinstall=0
-
 /**
- *  字体适配,4缩小0.8倍，5，6公用一套字体规范，6Plus放大1.2倍
+ *  字体适配,根据屏幕宽度适配字体
  */
 static inline CGFloat AUTO_ADAPT_FONT_SIZE(CGFloat fontSize) {
-
-	if (PS_iPhone4_4s) {
-		return fontSize *0.8;
-	}else if (PS_iPhone6Plus_6sPlus_7Plus || PS_iPhoneX) {
-		return floorf(fontSize *1.2); // 向下取整
-	}else {
-		return fontSize;
-	}
+	
+	CGFloat x = floorf(fontSize *PS_RATIO_W); // 向下取整
+	return x;
 }
 
 
@@ -423,8 +427,8 @@ static inline CGFloat AUTO_ADAPT_FONT_SIZE(CGFloat fontSize) {
 
 // 字体自动适配
 #define PS_LABEL_FONT_ADAPT(label)\
-CGFloat customPointSize = AUTO_ADAPT_FONT_SIZE(label.font.pointSize);\
-UIFont  *customFont = [UIFont fontWithName:label.font.familyName size:customPointSize];\
-label.font = customFont ? :[UIFont systemFontOfSize:customPointSize]
+CGFloat adaptPointSize = AUTO_ADAPT_FONT_SIZE(label.font.pointSize);\
+UIFont  *adaptFont = [UIFont fontWithName:label.font.familyName size:adaptPointSize];\
+label.font = adaptFont ? :[UIFont systemFontOfSize:adaptPointSize]
 
 #endif /* PSCommonDefine_h */
