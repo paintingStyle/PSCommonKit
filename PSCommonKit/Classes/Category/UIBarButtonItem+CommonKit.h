@@ -13,16 +13,31 @@ NS_ASSUME_NONNULL_BEGIN
 @interface UIBarButtonItem (CommonKit)
 
 /// 自定义按钮是否可用
-@property (nonatomic, assign) BOOL available;
+@property (nonatomic, assign) BOOL ps_available;
 
-+ (UIBarButtonItem *)sp_leftBarButtonItemWithTitle:(NSString *)title
++ (UIBarButtonItem *)ps_leftBarButtonItemWithTitle:(NSString *)title
 										titleColor:(UIColor *)color
 											target:(id)target
 											action:(SEL)action;
 
-+ (UIBarButtonItem *)sp_rightBarButtonItemWithTitle:(NSString *)title
++ (UIBarButtonItem *)ps_leftBarButtonItemWithTitle:(NSString *)title
+										titleColor:(UIColor *)color
+											  font:(UIFont *)font
+											target:(id)target
+											action:(SEL)action;
+
+
+
++ (UIBarButtonItem *)ps_rightBarButtonItemWithTitle:(NSString *)title
 										normalColor:(UIColor *)normalColor
-									  disabledColor:(UIColor *)disabledColor
+									  disabledColor:(nullable UIColor *)disabledColor
+											 target:(id)target
+											 action:(SEL)action;
+
++ (UIBarButtonItem *)ps_rightBarButtonItemWithTitle:(NSString *)title
+										normalColor:(UIColor *)normalColor
+									  disabledColor:(nullable UIColor *)disabledColor
+											   font:(UIFont *)font
 											 target:(id)target
 											 action:(SEL)action;
 
