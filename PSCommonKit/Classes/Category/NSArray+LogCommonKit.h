@@ -12,13 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NSArray (LogCommonKit)
 
-- (NSString *)descriptionString;
-
 @end
 
 @interface NSDictionary (LogCommonKit)
-
-- (NSString *)descriptionString;
 
 @end
 
