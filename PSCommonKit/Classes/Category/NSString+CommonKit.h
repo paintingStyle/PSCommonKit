@@ -147,9 +147,14 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSString * _Nonnull)ps_compareCurrentTime:(NSTimeInterval) compareDate;
 
 /**
- * 通过时间戳得出显示时间
+ * 通过时间戳得出显示时间 yyyy-MM-dd
  */
-+ (NSString * _Nonnull)ps_dateStringWithTimestamp:(NSTimeInterval)timestamp;
++ (NSString * _Nonnull)ps_dateStringYMDWithTimestamp:(NSTimeInterval)timestamp;
+
+/**
+ * 通过时间戳得出显示时间 yyyy-MM-dd HH:mm
+ */
++ (NSString * _Nonnull)ps_dateStringYMDHMWithTimestamp:(NSTimeInterval)timestamp;
 
 /**
  * 通过时间戳和格式显示时间
@@ -158,6 +163,20 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (NSString * _Nonnull)ps_dateStringWithTimestamp:(NSTimeInterval)timestamp
 										 formatter:(NSString *_Nonnull)formatter;
+
+/**
+ 格式化毫秒
+
+ @param MS 毫秒
+ */
++ (NSString *)ps_MSStringWithMS:(NSTimeInterval)MS;
+
+/**
+ 格式化毫秒（分钟）
+ 
+ @param MS 毫秒
+ */
++ (NSString *)ps_minutesStringWithMS:(NSTimeInterval)MS;
 
 #pragma mark - Get Number
 

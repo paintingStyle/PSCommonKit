@@ -472,18 +472,14 @@
 	return  result;
 }
 
-+ (NSString * _Nonnull)ps_dateStringWithTimestamp:(NSTimeInterval)timestamp {
++ (NSString * _Nonnull)ps_dateStringYMDWithTimestamp:(NSTimeInterval)timestamp {
 	
-	NSDate *confromTimesp    = [NSDate dateWithTimeIntervalSince1970:timestamp/1000];
-	NSCalendar *calendar     = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
-	NSInteger unitFlags      = NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay | NSCalendarUnitWeekday |
-	NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond;
-	NSDateComponents*referenceComponents=[calendar components:unitFlags fromDate:confromTimesp];
-	NSInteger referenceYear  =referenceComponents.year;
-	NSInteger referenceMonth =referenceComponents.month;
-	NSInteger referenceDay   =referenceComponents.day;
+	return [self ps_dateStringWithTimestamp:timestamp formatter:@"yyyy-MM-dd"];
+}
+
++ (NSString * _Nonnull)ps_dateStringYMDHMWithTimestamp:(NSTimeInterval)timestamp {
 	
-	return [NSString stringWithFormat:@"%ld年%ld月%ld日",(long)referenceYear,(long)referenceMonth,(long)referenceDay];
+	return [self ps_dateStringWithTimestamp:timestamp formatter:@"yyyy-MM-dd HH:mm"];
 }
 
 + (NSString * _Nonnull)ps_dateStringWithTimestamp:(NSTimeInterval)timestamp
@@ -499,6 +495,24 @@
 	NSString *strDate = [dateFormatter stringFromDate:timestampDate];
 	
 	return strDate;
+}
+
++ (NSString *)ps_MSStringWithMS:(NSTimeInterval)MS {
+	
+    long long time = MS;
+    long ms = time%1000/10;
+    long second = time/1000%60;
+    long m = time/1000/60;
+    NSString *timeString =[NSString stringWithFormat:@"%02ld分%02ld秒%02ld",m,second,ms];
+    return timeString;
+}
+
++ (NSString *)ps_minutesStringWithMS:(NSTimeInterval)MS {
+	
+    long long time = MS;
+    long m = time/1000/60;
+    NSString *timeString =[NSString stringWithFormat:@"%02ld分",m];
+    return timeString;
 }
 
 #pragma mark - Get Number
