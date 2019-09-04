@@ -7,221 +7,270 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04E001262E1FA969EBFCF3D50988124F /* NSArray+LogCommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E21BBC5D1DB94B3954AAE76126247AD1 /* NSArray+LogCommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		066D2E1D991B65CB051A72AC4C756BCF /* Pods-PSCommonKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F38ACBA27F2D1143DFA470FE5837AE05 /* Pods-PSCommonKit_Tests-dummy.m */; };
-		09C376C54CC6D6065662E722C246F5D4 /* Pods-PSCommonKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 104EADEED6487EB01750AF2F9329378A /* Pods-PSCommonKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A110594452CE986F938B00B94999BB6 /* PSPointInSideButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EA50A1E1E46A9BF43E19476AF5E04FAA /* PSPointInSideButton.m */; };
-		0BE9B35061C8DFDA17337CDB4BB09AEB /* UIImageView+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 933473F0A1BCB943FA6B6213A2A6F430 /* UIImageView+CommonKit.m */; };
-		0DF7DFF818CA4CDE75AD9B9986AE4A11 /* UIImageView+PSIBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8456AE771F4B0C460B8591C74E07AA /* UIImageView+PSIBInspectable.m */; };
-		1141FB707FB94C8095575974EB22E635 /* UIView+PSIBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 665048FC221886108311E493B56B3B2E /* UIView+PSIBInspectable.m */; };
-		14EA822DC74EE1EE79FD647C634549CA /* UIGestureRecognizer+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 03796E0697DCF2E10A81F6B65553105E /* UIGestureRecognizer+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1CC1F3765E1A713270E7D18FA2D454AB /* UIBarButtonItem+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B107CBBFFF9D99BBFB538908DD7AE4C /* UIBarButtonItem+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31EB1473A2344FE839A31A39B87FADDC /* NSDate+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D2208B096B802B3A3DA507A3A2895D4 /* NSDate+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		41C47F2559DF3BFCB4A355883BB233EF /* NSString+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 914CB6F1A5301521008E759588C78693 /* NSString+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		41F711DE57946FF5DB4E5182BDDAFF82 /* UIAlertController+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EEE5EE897D2E601922B0E20AA0153275 /* UIAlertController+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44BFEC48A5A40DB2CC890DE2F749E7D2 /* UIView+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CFC1C262C6CB1BD7BA1F438A7D437357 /* UIView+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46D1F6A4472E4D00CA71D95090D9B440 /* NSDate+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B7C379EFB4ACFCDD9882CBA2DC00BF /* NSDate+CommonKit.m */; };
-		4BF0CC79FC81897AEEF7D19427EE76ED /* PSCommonKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49FC6A0FD0B03F00AA9FE0DA6C98DDB3 /* PSCommonKit-dummy.m */; };
-		5283203610B9E385B96636B1CF93806F /* UITextView+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 907F89D2445B7D6EFECAD11D47A2CDDA /* UITextView+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		52BDA04AFE46DB9BC7BE63F07DF3DDB5 /* UIButton+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 695A689807A621F8CF355859731EC44D /* UIButton+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5996DB0A1EBF8F3FAC3A94513E7DD9D5 /* PSCommonDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = B3DF0F64EE512F40DCEA1810FC3DD90D /* PSCommonDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C08B0A647B7B532D2D8E3E067040C62 /* UITextField+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E99FD81A197014794DDC7F8E21C32F6E /* UITextField+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63E8A546E312DEC54274824E6A44B8BB /* UIColor+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 51D3D35DF9C27BA0DDC61C044DAC9E2F /* UIColor+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		675C62CCDBDC80D29E6BC98AADEE499C /* UIImage+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B484371D3B3C2640822C0258724E39DC /* UIImage+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		716F70903946866A12F8F7279630B002 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		71BCDADB4F1C501726C4012D4D13BAC9 /* UIView+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 74971282036E081A053E9D851FEA323F /* UIView+CommonKit.m */; };
-		7791E199AA093BD209197CDD859EF976 /* UIImage+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 236F4C43209B907398D3C3382307D86D /* UIImage+CommonKit.m */; };
-		79C015E739A343C94E0B0C0A1AF0231F /* PSTaskTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6D0C2FBD9BF38077F152EA9B0C642F /* PSTaskTimer.m */; };
-		7B94416863906B3E91D0AC9E1FA81227 /* NSString+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E381F5964A34C44A35F71588EA7620 /* NSString+CommonKit.m */; };
-		7EBD8A7D299265125CA084289C44AFCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8004D0546D43C693354288E58F572358 /* UIDevice+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B95D719DA52235E4D8AD894A57D32D /* UIDevice+CommonKit.m */; };
-		8375526B28EFB95B56425FD01047D8ED /* PSLimitTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA4038440FDABF9A67B9960957034DF /* PSLimitTextField.m */; };
-		8CE23F6AEAC1D064E511F31D8A116743 /* PSCommonKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB6C1CD72665FD59A10F8ACA6CA1D97 /* PSCommonKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F312F730B5C4281B1577C9AFB80AB36 /* UILabel+PSIBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB606E6FF09E7CB0446E1A9CDBD81B3 /* UILabel+PSIBInspectable.m */; };
-		923A77C1EB457E41814F7E3D47788234 /* UITextField+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E3287041B99CEA400DDAA37F0D81E76B /* UITextField+CommonKit.m */; };
-		934D329D2E43DD106B300EEF5EC3BA5B /* UIAlertController+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6235C6B7E70469FAF46CB176A1B21B /* UIAlertController+CommonKit.m */; };
-		9F50FC28C1485812192705D780F0E70B /* UIGestureRecognizer+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FA50FCA8E3F1015EF345C7DCAAB8E9 /* UIGestureRecognizer+CommonKit.m */; };
-		9FCD10AD961F42FFE08805F0162B5E03 /* UILabel+PSIBInspectable.h in Headers */ = {isa = PBXBuildFile; fileRef = A8CF85DA7ABA7FA81B9AC1023AF9F099 /* UILabel+PSIBInspectable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5529AB98AFA6F1634A4B576D1D7B7C4 /* PSTaskTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5969EB30AB8FA0793F470EBE6DCB679D /* PSTaskTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5BD8ADC9AC3F71DA7CD2B2B9A259727 /* NSArray+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C50F7436C1CCAC41E9F37ABC504971F8 /* NSArray+CommonKit.m */; };
-		B2DC067339A7E459945ED0017072B9DC /* UITextView+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E60C29550B50946FC081F27CD8ED71AC /* UITextView+CommonKit.m */; };
-		B8774D4E9358F4B9390243FA1C33C3AD /* UILabel+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C40B6C95CDC69CFCA7310BF4B6410CDD /* UILabel+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD30051A8B7B199F0B8210EA7C455DB0 /* UIView+PSIBInspectable.h in Headers */ = {isa = PBXBuildFile; fileRef = 571E582A4C48324C6197726995DF486B /* UIView+PSIBInspectable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDA42438A6D2475C6F601D5787864FFB /* UILabel+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E0CD658DF4BE6B56395C37BB06BD2059 /* UILabel+CommonKit.m */; };
-		BEC31F0441E8A727ECC27467FC888EAA /* UIButton+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B301E6B2F41BBF7CF51B5BC2EA9C2DF /* UIButton+CommonKit.m */; };
-		C09C89C737701AB35B9CB1F47400921F /* UIButton+PSDelayedClick.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DBA38A0F772807B530D856CB7F3FE9F /* UIButton+PSDelayedClick.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C189A0AF37F5FCB8A79530E1F10BEC9C /* UIDevice+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D17C937BD3EC5D8F8A690850112DA1D /* UIDevice+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C919C81A4FFD4A4FB24C9C09C35C5F26 /* Pods-PSCommonKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF921A58B2F5D9158AF524BE668D4029 /* Pods-PSCommonKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAD18F74FA8050BD89690D79F123E559 /* PSPointInSideButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A26C0CD6C12BB458762514B3163020E /* PSPointInSideButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CCACD5B96E50BCC6DD34684CC7C2A550 /* UIImageView+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D65AE8557F94AE987315D0856A33164 /* UIImageView+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD237923D5247ABD0A7DC3242AF5B726 /* PSCommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A720A14F8DCD55DCDCC7C830F73E0D6 /* PSCommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4BA67A935B7BCFA9B206B8AB0817746 /* Pods-PSCommonKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD237F56C2BCE53B6B14D103DD7FA9B5 /* Pods-PSCommonKit_Example-dummy.m */; };
-		DA8F0C6FF6DF4275D963E7367F3EEF98 /* NSLayoutConstraint+PSIBInspectable.h in Headers */ = {isa = PBXBuildFile; fileRef = ECFE038398C1624A0CF22806ABCAE6B2 /* NSLayoutConstraint+PSIBInspectable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD71D4C01035FFA05FB87DAEBA460B5E /* PSLimitTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEB048E94078913878D3BF4791F3098 /* PSLimitTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E02F91DCA9CC984A9C5C3C49A0B9D23F /* NSArray+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E40CE84728CD2410D12A5EC1316C2AF7 /* NSArray+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2017FC74924E298E7797B2DDE43B90C /* UIColor+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD2769FA4F3DEAE54FAE0BA7DF03188 /* UIColor+CommonKit.m */; };
-		E5776E5BA7B28F8926BAB68042200FAA /* PSPopupMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A9DBB49D1D651A6A018165DD665B1B7 /* PSPopupMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7CADCC470DC2FE7F204FB2510D86F8D /* UIButton+PSDelayedClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D74E551E5F27CB3455419567EDB4CA4 /* UIButton+PSDelayedClick.m */; };
-		E82B1C0165CB061D3D1D520DC351DAA0 /* NSLayoutConstraint+PSIBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B04534B62502B178391B6DEDC0A89D /* NSLayoutConstraint+PSIBInspectable.m */; };
-		EF13DB311F7840AC343FA604B7F9E7C3 /* NSArray+LogCommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B95048F2AE8B2E4CCFC39B1525C7C9 /* NSArray+LogCommonKit.m */; };
-		F24366734E969D7C98C8A89B3971E5B3 /* UIBarButtonItem+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC532576AFD1944E50F8AD5D7F1D83E /* UIBarButtonItem+CommonKit.m */; };
-		FC81CD209C0C6273A225D4D81300558C /* UIImageView+PSIBInspectable.h in Headers */ = {isa = PBXBuildFile; fileRef = FFEF28804BAD655C7AA033BF0625E39A /* UIImageView+PSIBInspectable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD51A2AFF8062FB1AC12F67BE1732D59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		FF2C03F2D7E51309D13AA92AC5F60E9E /* PSPopupMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = DD22CC9665D0B59E22BD5039E929A376 /* PSPopupMenu.m */; };
+		019EAA45C27C7B02F8C34C92586C976E /* UIImageView+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7A8308E8F945F997009C0637EA29A2 /* UIImageView+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		040547F267F984111BDE692ABC541910 /* UIImageView+PSIBInspectable.h in Headers */ = {isa = PBXBuildFile; fileRef = 060694483746BFE4B4A6A14EB30B0E17 /* UIImageView+PSIBInspectable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A9210AE1A621A6838ABEB834D3F9697 /* Pods-PSCommonKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 910CC9E28BBF9501FEE18A5851C517EA /* Pods-PSCommonKit_Tests-dummy.m */; };
+		0BF1C0FCF972633B4EFC7F48DC4615BF /* UIImageView+PSIBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B2CEF559D75A29E8A9B58E29DCC9BD /* UIImageView+PSIBInspectable.m */; };
+		0C56A71B29C4CD0D50D2F8BBF327862C /* UIGestureRecognizer+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 052095F21ADD0DAA06FEA30A40FDA43D /* UIGestureRecognizer+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D3CA3CD510860DFFE2DEAAA7DDBE2EF /* UIButton+PSDelayedClick.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA87FDAB860297275A3D011FFE5A3A1 /* UIButton+PSDelayedClick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1308B3A9369987E4A4292A3F763495A6 /* UIView+PSIBInspectable.h in Headers */ = {isa = PBXBuildFile; fileRef = 78536402F867C3F67D08481486259B8A /* UIView+PSIBInspectable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14ECB437B9DFA7744C4DC4268D2F6BC8 /* UIColor+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADAE1F393E54AFDD838713AF41B3379 /* UIColor+CommonKit.m */; };
+		14EDD6A7888A4C314E33EA7496E0EB31 /* UITextView+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 67892A7BAA7957CBA1837F53A6D31B4D /* UITextView+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1576796574D7B6D15F494197E355CA53 /* UIImageView+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 332E6A8E9A5AB74D16B428E739A0FEE7 /* UIImageView+CommonKit.m */; };
+		18C87E90DD65959C2B0A99132815BB1A /* UILabel+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BCB1DBB68BD24D23E0C3DEC4729D97C /* UILabel+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C4156FEFF152C57540981F52E6462FE /* LECountDownTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 381E713BD66E16719F5FD82237A2D332 /* LECountDownTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FBD34DCB10AA8C1046CAEFED3794001 /* NSDate+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D67364CBAC378EE056E5E8B321E98408 /* NSDate+CommonKit.m */; };
+		27381526AEF7C9CCA585D898D1004799 /* UIAlertController+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA69C34CE712F547704B2E13816AEE9 /* UIAlertController+CommonKit.m */; };
+		32F895E051EE363424957137E43E79BD /* NSString+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = AC04C078843C15B1C952D3B72C331E9D /* NSString+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33B1F92DC8728726A72B688AD39802B6 /* UIDevice+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = FE409FCDDBC4BCD01C82F8B924300496 /* UIDevice+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3497054D9A71D773966E63487811D860 /* NSLayoutConstraint+PSIBInspectable.h in Headers */ = {isa = PBXBuildFile; fileRef = DE1357B6E2F70614D7BCB4F00DA47D54 /* NSLayoutConstraint+PSIBInspectable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34E60D01F310B6947A374A49E954C3E2 /* NSArray+LogCommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7035AB56B6C05F499E8F1C2C0E37CDE3 /* NSArray+LogCommonKit.m */; };
+		3D0AD2F46AF5898062846F45FD0C273B /* PSLimitTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BD34ED383283B27F79A9BEA8E56F8 /* PSLimitTextField.m */; };
+		44D98CF013C36B60EA8FD8028691058B /* Pods-PSCommonKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0AFF45F2E039A26D4B157ADF3B60E18 /* Pods-PSCommonKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49421D497EB058F910DB893C049063B4 /* UIBarButtonItem+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBC1AE61BFAC8211429FE97124FF768 /* UIBarButtonItem+CommonKit.m */; };
+		5177004E9374BC36706E57D8976F5B06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		57348CF8A9620368038588637A21E236 /* UIGestureRecognizer+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 100D77BAF0D28B8E3C1514415CDA53E8 /* UIGestureRecognizer+CommonKit.m */; };
+		5BEB34FC119866473718B243BAD1D423 /* NSArray+LogCommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B02B25C798A30FC6A3F53639DCB3D88 /* NSArray+LogCommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CCA724696D505951F84D774C7D13AB8 /* NSDate+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1370180D5A03AA0D37B637BB203FF13D /* NSDate+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		614027975139C64147CEBFE50D4AA66B /* UIView+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0593D5F460B0D04479E80EC40CA75C1B /* UIView+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6417BF68BAEEE4428275B7006AF81D8F /* PSCommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B67F9953501B2A42AB32E335E39BB19B /* PSCommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EEAF849DD0BB732EEDC6224D4F5BBCE /* NSLayoutConstraint+PSIBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = F469EC0765D9BE4BAF68D944A5974F38 /* NSLayoutConstraint+PSIBInspectable.m */; };
+		71F965428AF9487A7614797007C02D15 /* NSArray+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 05731C02B37F854BE5B00D58311019B9 /* NSArray+CommonKit.m */; };
+		739BCF9AE6E6A71D9C92DAFED946D2B5 /* PSCommonKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE569BB55984060B0264F84333B13D5A /* PSCommonKit-dummy.m */; };
+		77638E582BF2BCE91D234F9AFE28F65C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		78014C69AC079E0E26E7AAE372D0B9A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		87C30382490B0F40F229072046D93748 /* PSPointInSideButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D81CAA4F445FEB24173A359DFE56E6E /* PSPointInSideButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88A55FE63939299059C808DA9FEBF3AD /* UIButton+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C98AD0747F3D061E8C7843A06404A39 /* UIButton+CommonKit.m */; };
+		893F849951CD9B0BEACE9D4F91C4ADFA /* Pods-PSCommonKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6AE8D10EAF3684919C92CD1FE40DA3D /* Pods-PSCommonKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		930DFB7E10A71F5B6BB0A1F20E43B4D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		98A9E378BF61D24F7B0AAC02BCE1E5B1 /* PSCommonDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A146F3DC0DCA23458C413566EAE5F4A /* PSCommonDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DEAF818FCD73B9C91F5C7EAF3818140 /* Pods-PSCommonKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB5568C32D13901551BE692AAA1E33D /* Pods-PSCommonKit_Example-dummy.m */; };
+		A5CD63CE6F3BB80722DECABBEFC6B7C7 /* UILabel+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CD1A88CF5818D4AE54E533073C6950 /* UILabel+CommonKit.m */; };
+		A9B247C494095909442783405603E91C /* UITextView+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7810166D5A1FD5DAAFDD1C65E139328D /* UITextView+CommonKit.m */; };
+		AACB5363510303459F5CD0D3A6B60EAF /* NSString+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D1215A5AF214352C76412DFA6F8DE2 /* NSString+CommonKit.m */; };
+		AB7B0EA52EE26BEA045B94D49210F86C /* UITextField+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E99A6D55527782980110F6FF6024FF16 /* UITextField+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B54D4D1E49E6C792C21033CCA94359C1 /* UIImage+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 862B370F01E4CBE6D78F98F98845EEF0 /* UIImage+CommonKit.m */; };
+		B9482AFB433FC7A2D846D0D7D6F3B52C /* UIButton+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 53426FBAA592089E792A108E07B54A1E /* UIButton+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB8FD1CE2545985A996ED4C0E2430945 /* UIImage+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 52668EB2FC10C531C33B09FEEA922B93 /* UIImage+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBCC0437753B7B621522B3667510C929 /* UITextField+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B3216E681695FD0ACC0187ECD213DF /* UITextField+CommonKit.m */; };
+		BC9EAD74695E6EEF7137272192A2C9AF /* NSArray+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B9F8BD47467820D225F7D624F045F30 /* NSArray+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD33F7C5850199611B5E4AFEBED098F0 /* UIView+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 99CBD3C93FC68EA4F10DB23AD3D69905 /* UIView+CommonKit.m */; };
+		CE4B9F303F14CFB6B5D535395595A510 /* UIAlertController+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F96D8A207FE60A30FC81B3D744B0E3B4 /* UIAlertController+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF59997A79EFBEED6632D61044DE012D /* PSTaskTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB8EF9FA1A73E4E957618FB3CC31F7C /* PSTaskTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9EA69A57CEECC32AD52932C1D074A18 /* UILabel+PSIBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C41F12AE68E5B30BED80B971BE594D4 /* UILabel+PSIBInspectable.m */; };
+		DB1318CAF2B0F7932971E32FFEF72EDD /* LECountDownTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 170B2070823D440DA8D9BC9744D55F3E /* LECountDownTimer.m */; };
+		DBAB444B22FD02E7EDFA8A10B3557D1C /* UIColor+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CA687383D3637299111970FA490248A6 /* UIColor+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCA977037C4DE715782EFE462BF8B889 /* UIView+PSIBInspectable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3065377FF8BFBBF04412A351C8952764 /* UIView+PSIBInspectable.m */; };
+		E292CD96DB81D8CF08732933BC54A300 /* UIButton+PSDelayedClick.m in Sources */ = {isa = PBXBuildFile; fileRef = E9FDC7949EBFBF3617BCCF3F0AE1255B /* UIButton+PSDelayedClick.m */; };
+		E45F3B6710F22606BF82445A859D9C4C /* PSPointInSideButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D5527F82C9F08860D3C1BCCA400E8A /* PSPointInSideButton.m */; };
+		E4F7AA0B47645973A396AD17C5FBFAB3 /* PSPopupMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F307AB634207775662EF43D33A3975F /* PSPopupMenu.m */; };
+		E7206224B2944E0025C13A56157F0516 /* UIDevice+CommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FC03722EF32D1B9C2AB51CD4BD2360F3 /* UIDevice+CommonKit.m */; };
+		E7F4ED987ED56122751F93929BB22FCF /* PSTaskTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 275F5D57BE29AA808457D922C554A304 /* PSTaskTimer.m */; };
+		EFF2F8D594D04DCBA21D0A444F3892AB /* UIBarButtonItem+CommonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C6ECC3617B8D32DE8E4DC0B7A5D87D /* UIBarButtonItem+CommonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F32ADDD5322835E018B06ADA5612ECD6 /* UILabel+PSIBInspectable.h in Headers */ = {isa = PBXBuildFile; fileRef = 9913224A7C8481898CBACE9379BA3CC1 /* UILabel+PSIBInspectable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F61EFFD1848964CD9EEDDBF6F01A0AD6 /* PSPopupMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BE08250462DDA2E4C41420ECE40E3BC /* PSPopupMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9F355C2E2FF5F5A3567CE8B84E8E02F /* PSCommonKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F6912B6F2A431AFCCC108543CDF7EC5 /* PSCommonKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCF4AD6F40D4FE647EBC5723CF39AFEE /* PSLimitTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DB6785E6B99C88E5376794724950F4F /* PSLimitTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9AA12AA5933C5B0FC10ACB2BBCCBEF46 /* PBXContainerItemProxy */ = {
+		1A4FAC0837D6A39B6E70EF4272711762 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FBEF446DDF6A8A84A57B6AFF0D64969C;
-			remoteInfo = "Pods-PSCommonKit_Example";
-		};
-		E7E11220E608A654C5AEA5692341B316 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B2B66916D9BC0EABD9E29389DF8768E5;
+			remoteGlobalIDString = EF50D1B1C47EE2CCF7F52C3CF746C119;
 			remoteInfo = PSCommonKit;
+		};
+		8324D8F8A5ACE62A78CAF33EF3C2A75B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A38CF8A102B2FACB3A7B1B353F8B963F;
+			remoteInfo = "Pods-PSCommonKit_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		004FDA690853C8C6628D0B7C8026B366 /* Pods-PSCommonKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSCommonKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		03796E0697DCF2E10A81F6B65553105E /* UIGestureRecognizer+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+CommonKit.h"; sourceTree = "<group>"; };
-		104EADEED6487EB01750AF2F9329378A /* Pods-PSCommonKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PSCommonKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		16E9487E11BC507363B3189722A8077D /* Pods-PSCommonKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSCommonKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1A9DBB49D1D651A6A018165DD665B1B7 /* PSPopupMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PSPopupMenu.h; sourceTree = "<group>"; };
-		22CA8CDBBB29AE2131885A4038B55FFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		236F4C43209B907398D3C3382307D86D /* UIImage+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CommonKit.m"; sourceTree = "<group>"; };
-		27B95048F2AE8B2E4CCFC39B1525C7C9 /* NSArray+LogCommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LogCommonKit.m"; sourceTree = "<group>"; };
-		2BC037D0D4D8DD391FC28CF0F8CF4D50 /* Pods-PSCommonKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PSCommonKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2D2208B096B802B3A3DA507A3A2895D4 /* NSDate+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+CommonKit.h"; sourceTree = "<group>"; };
-		2EC532576AFD1944E50F8AD5D7F1D83E /* UIBarButtonItem+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CommonKit.m"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		39A4DCDE8DC136EF030AA1A007C6DF47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		3D17C937BD3EC5D8F8A690850112DA1D /* UIDevice+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+CommonKit.h"; sourceTree = "<group>"; };
-		3D74E551E5F27CB3455419567EDB4CA4 /* UIButton+PSDelayedClick.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PSDelayedClick.m"; sourceTree = "<group>"; };
-		40FA50FCA8E3F1015EF345C7DCAAB8E9 /* UIGestureRecognizer+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+CommonKit.m"; sourceTree = "<group>"; };
-		43B7758052382586DC1CB32417B5A70F /* Pods-PSCommonKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSCommonKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		49FC6A0FD0B03F00AA9FE0DA6C98DDB3 /* PSCommonKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PSCommonKit-dummy.m"; sourceTree = "<group>"; };
-		4B107CBBFFF9D99BBFB538908DD7AE4C /* UIBarButtonItem+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CommonKit.h"; sourceTree = "<group>"; };
-		4DDB1E7AD8B4655BD588C598A1C46EB4 /* Pods-PSCommonKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSCommonKit_Example-Info.plist"; sourceTree = "<group>"; };
-		51D3D35DF9C27BA0DDC61C044DAC9E2F /* UIColor+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+CommonKit.h"; sourceTree = "<group>"; };
-		54B04534B62502B178391B6DEDC0A89D /* NSLayoutConstraint+PSIBInspectable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PSIBInspectable.m"; sourceTree = "<group>"; };
-		54B1BC1C3975EC3C8AB01FE0458282FF /* Pods-PSCommonKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PSCommonKit_Example.modulemap"; sourceTree = "<group>"; };
-		55E381F5964A34C44A35F71588EA7620 /* NSString+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+CommonKit.m"; sourceTree = "<group>"; };
-		571E582A4C48324C6197726995DF486B /* UIView+PSIBInspectable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+PSIBInspectable.h"; sourceTree = "<group>"; };
-		5969EB30AB8FA0793F470EBE6DCB679D /* PSTaskTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PSTaskTimer.h; sourceTree = "<group>"; };
-		5B301E6B2F41BBF7CF51B5BC2EA9C2DF /* UIButton+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CommonKit.m"; sourceTree = "<group>"; };
-		5D65AE8557F94AE987315D0856A33164 /* UIImageView+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CommonKit.h"; sourceTree = "<group>"; };
-		665048FC221886108311E493B56B3B2E /* UIView+PSIBInspectable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+PSIBInspectable.m"; sourceTree = "<group>"; };
-		693F2DE8C175710C0C30D33F8CDB9FBF /* Pods-PSCommonKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSCommonKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		695A689807A621F8CF355859731EC44D /* UIButton+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+CommonKit.h"; sourceTree = "<group>"; };
-		6CB9E30787D57C7FE0DE4627527AA683 /* PSCommonKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PSCommonKit-Info.plist"; sourceTree = "<group>"; };
-		70B7C379EFB4ACFCDD9882CBA2DC00BF /* NSDate+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CommonKit.m"; sourceTree = "<group>"; };
-		71B8B30370795BA8D601836022CF93F6 /* PSCommonKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PSCommonKit.modulemap; sourceTree = "<group>"; };
-		74971282036E081A053E9D851FEA323F /* UIView+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+CommonKit.m"; sourceTree = "<group>"; };
-		7A26C0CD6C12BB458762514B3163020E /* PSPointInSideButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PSPointInSideButton.h; sourceTree = "<group>"; };
-		7BB91CA74863A9C5815D7087C9D2B5DF /* Pods-PSCommonKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSCommonKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		7C3900A440EF6228CB1BD318042271AB /* Pods-PSCommonKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSCommonKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8A720A14F8DCD55DCDCC7C830F73E0D6 /* PSCommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSCommonKit.h; path = PSCommonKit/Classes/PSCommonKit.h; sourceTree = "<group>"; };
-		8F6235C6B7E70469FAF46CB176A1B21B /* UIAlertController+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+CommonKit.m"; sourceTree = "<group>"; };
-		907F89D2445B7D6EFECAD11D47A2CDDA /* UITextView+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+CommonKit.h"; sourceTree = "<group>"; };
-		914CB6F1A5301521008E759588C78693 /* NSString+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+CommonKit.h"; sourceTree = "<group>"; };
-		928BCC80FE78CE26C1D136071793A01B /* Pods-PSCommonKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PSCommonKit_Tests.modulemap"; sourceTree = "<group>"; };
-		933473F0A1BCB943FA6B6213A2A6F430 /* UIImageView+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CommonKit.m"; sourceTree = "<group>"; };
-		93E3FD809CEE8C6D24BE0644BBC27800 /* PSCommonKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = PSCommonKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DB6C1CD72665FD59A10F8ACA6CA1D97 /* PSCommonKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSCommonKit-umbrella.h"; sourceTree = "<group>"; };
-		9DBA38A0F772807B530D856CB7F3FE9F /* UIButton+PSDelayedClick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+PSDelayedClick.h"; sourceTree = "<group>"; };
-		A1B95D719DA52235E4D8AD894A57D32D /* UIDevice+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+CommonKit.m"; sourceTree = "<group>"; };
-		A8CF85DA7ABA7FA81B9AC1023AF9F099 /* UILabel+PSIBInspectable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+PSIBInspectable.h"; sourceTree = "<group>"; };
-		AA8456AE771F4B0C460B8591C74E07AA /* UIImageView+PSIBInspectable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+PSIBInspectable.m"; sourceTree = "<group>"; };
-		AB877E6A99435B46BFB8BD0B2EF7E518 /* Pods-PSCommonKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSCommonKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B3DF0F64EE512F40DCEA1810FC3DD90D /* PSCommonDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSCommonDefine.h; path = PSCommonKit/Classes/PSCommonDefine.h; sourceTree = "<group>"; };
-		B484371D3B3C2640822C0258724E39DC /* UIImage+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+CommonKit.h"; sourceTree = "<group>"; };
-		B4906AA292BB9CA7C238022BAC3BCA99 /* PSCommonKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSCommonKit-prefix.pch"; sourceTree = "<group>"; };
-		B5EA4430FB44FF682638583228790BA7 /* Pods-PSCommonKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PSCommonKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B7315605AAB5AE213256ECFF669C4850 /* Pods-PSCommonKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PSCommonKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BB3E59C0F392E2D1589C59406E66E8CC /* PSCommonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PSCommonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BCD2769FA4F3DEAE54FAE0BA7DF03188 /* UIColor+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CommonKit.m"; sourceTree = "<group>"; };
-		C40B6C95CDC69CFCA7310BF4B6410CDD /* UILabel+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+CommonKit.h"; sourceTree = "<group>"; };
-		C50F7436C1CCAC41E9F37ABC504971F8 /* NSArray+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CommonKit.m"; sourceTree = "<group>"; };
-		CC8EE8944B2CF48531B80CA835367677 /* Pods_PSCommonKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSCommonKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE6D0C2FBD9BF38077F152EA9B0C642F /* PSTaskTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PSTaskTimer.m; sourceTree = "<group>"; };
-		CEFABD8CAC9755CF43A815A4FED9FACA /* PSCommonKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PSCommonKit.xcconfig; sourceTree = "<group>"; };
-		CFC1C262C6CB1BD7BA1F438A7D437357 /* UIView+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+CommonKit.h"; sourceTree = "<group>"; };
-		DD22CC9665D0B59E22BD5039E929A376 /* PSPopupMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PSPopupMenu.m; sourceTree = "<group>"; };
-		DD237F56C2BCE53B6B14D103DD7FA9B5 /* Pods-PSCommonKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PSCommonKit_Example-dummy.m"; sourceTree = "<group>"; };
-		DF921A58B2F5D9158AF524BE668D4029 /* Pods-PSCommonKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PSCommonKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		DFA4038440FDABF9A67B9960957034DF /* PSLimitTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PSLimitTextField.m; sourceTree = "<group>"; };
-		E0CD658DF4BE6B56395C37BB06BD2059 /* UILabel+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CommonKit.m"; sourceTree = "<group>"; };
-		E21BBC5D1DB94B3954AAE76126247AD1 /* NSArray+LogCommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+LogCommonKit.h"; sourceTree = "<group>"; };
-		E3287041B99CEA400DDAA37F0D81E76B /* UITextField+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CommonKit.m"; sourceTree = "<group>"; };
-		E40CE84728CD2410D12A5EC1316C2AF7 /* NSArray+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+CommonKit.h"; sourceTree = "<group>"; };
-		E60C29550B50946FC081F27CD8ED71AC /* UITextView+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+CommonKit.m"; sourceTree = "<group>"; };
-		E99FD81A197014794DDC7F8E21C32F6E /* UITextField+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+CommonKit.h"; sourceTree = "<group>"; };
-		EA50A1E1E46A9BF43E19476AF5E04FAA /* PSPointInSideButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PSPointInSideButton.m; sourceTree = "<group>"; };
-		ECFE038398C1624A0CF22806ABCAE6B2 /* NSLayoutConstraint+PSIBInspectable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PSIBInspectable.h"; sourceTree = "<group>"; };
-		EEE5EE897D2E601922B0E20AA0153275 /* UIAlertController+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+CommonKit.h"; sourceTree = "<group>"; };
-		F38ACBA27F2D1143DFA470FE5837AE05 /* Pods-PSCommonKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PSCommonKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		FBB606E6FF09E7CB0446E1A9CDBD81B3 /* UILabel+PSIBInspectable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+PSIBInspectable.m"; sourceTree = "<group>"; };
-		FBEB048E94078913878D3BF4791F3098 /* PSLimitTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PSLimitTextField.h; sourceTree = "<group>"; };
-		FC3255A453DED69658CB7F00A16C923F /* Pods_PSCommonKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSCommonKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFEF28804BAD655C7AA033BF0625E39A /* UIImageView+PSIBInspectable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+PSIBInspectable.h"; sourceTree = "<group>"; };
+		052095F21ADD0DAA06FEA30A40FDA43D /* UIGestureRecognizer+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+CommonKit.h"; sourceTree = "<group>"; };
+		05731C02B37F854BE5B00D58311019B9 /* NSArray+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CommonKit.m"; sourceTree = "<group>"; };
+		0593D5F460B0D04479E80EC40CA75C1B /* UIView+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+CommonKit.h"; sourceTree = "<group>"; };
+		05B6A90C3019FD19721ADDE715A71E14 /* Pods-PSCommonKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSCommonKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		060694483746BFE4B4A6A14EB30B0E17 /* UIImageView+PSIBInspectable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+PSIBInspectable.h"; sourceTree = "<group>"; };
+		0B9F8BD47467820D225F7D624F045F30 /* NSArray+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+CommonKit.h"; sourceTree = "<group>"; };
+		0BCB1DBB68BD24D23E0C3DEC4729D97C /* UILabel+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+CommonKit.h"; sourceTree = "<group>"; };
+		0C3C8B333F9689F6E10A56155EDB58FA /* PSCommonKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PSCommonKit.framework; path = PSCommonKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		100D77BAF0D28B8E3C1514415CDA53E8 /* UIGestureRecognizer+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+CommonKit.m"; sourceTree = "<group>"; };
+		1370180D5A03AA0D37B637BB203FF13D /* NSDate+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+CommonKit.h"; sourceTree = "<group>"; };
+		170B2070823D440DA8D9BC9744D55F3E /* LECountDownTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LECountDownTimer.m; sourceTree = "<group>"; };
+		1A3D873007294A7EF5B42046F7DBA0A6 /* Pods-PSCommonKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSCommonKit_Example-Info.plist"; sourceTree = "<group>"; };
+		1B3F0A5717FA454A91C4EB51267C3A20 /* Pods-PSCommonKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSCommonKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		22D5527F82C9F08860D3C1BCCA400E8A /* PSPointInSideButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PSPointInSideButton.m; sourceTree = "<group>"; };
+		2392F58A74CE6DE7EDD036B74354F71E /* Pods-PSCommonKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PSCommonKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		25F0169A9A3957A29619E6D59875B811 /* Pods-PSCommonKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSCommonKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		275F5D57BE29AA808457D922C554A304 /* PSTaskTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PSTaskTimer.m; sourceTree = "<group>"; };
+		285885AE05B2FE52C0EBF3C508E285B8 /* PSCommonKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PSCommonKit-Info.plist"; sourceTree = "<group>"; };
+		2C41F12AE68E5B30BED80B971BE594D4 /* UILabel+PSIBInspectable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+PSIBInspectable.m"; sourceTree = "<group>"; };
+		2C69B98720D345422A4CD559530533EE /* Pods_PSCommonKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PSCommonKit_Tests.framework; path = "Pods-PSCommonKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB5568C32D13901551BE692AAA1E33D /* Pods-PSCommonKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PSCommonKit_Example-dummy.m"; sourceTree = "<group>"; };
+		2CBC1AE61BFAC8211429FE97124FF768 /* UIBarButtonItem+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CommonKit.m"; sourceTree = "<group>"; };
+		3065377FF8BFBBF04412A351C8952764 /* UIView+PSIBInspectable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+PSIBInspectable.m"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		32B50F366BB5AFAF2FCEA3659F1DC667 /* PSCommonKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSCommonKit-prefix.pch"; sourceTree = "<group>"; };
+		332E6A8E9A5AB74D16B428E739A0FEE7 /* UIImageView+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CommonKit.m"; sourceTree = "<group>"; };
+		34511B9275A392CB5BA85B3E2D8E6AA4 /* Pods-PSCommonKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSCommonKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		35B2CEF559D75A29E8A9B58E29DCC9BD /* UIImageView+PSIBInspectable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+PSIBInspectable.m"; sourceTree = "<group>"; };
+		381E713BD66E16719F5FD82237A2D332 /* LECountDownTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LECountDownTimer.h; sourceTree = "<group>"; };
+		3A146F3DC0DCA23458C413566EAE5F4A /* PSCommonDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSCommonDefine.h; path = PSCommonKit/Classes/PSCommonDefine.h; sourceTree = "<group>"; };
+		3AC602DC2A930284209850B29FA822EB /* Pods-PSCommonKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PSCommonKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B58D477CFB2EC131F9BF0EEEB7BAD2A /* Pods-PSCommonKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSCommonKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3D1BD34ED383283B27F79A9BEA8E56F8 /* PSLimitTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PSLimitTextField.m; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4C98AD0747F3D061E8C7843A06404A39 /* UIButton+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CommonKit.m"; sourceTree = "<group>"; };
+		52668EB2FC10C531C33B09FEEA922B93 /* UIImage+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+CommonKit.h"; sourceTree = "<group>"; };
+		53426FBAA592089E792A108E07B54A1E /* UIButton+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+CommonKit.h"; sourceTree = "<group>"; };
+		66EBF9685051ED327CA4A113E67DFA4D /* Pods-PSCommonKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PSCommonKit_Example.modulemap"; sourceTree = "<group>"; };
+		67892A7BAA7957CBA1837F53A6D31B4D /* UITextView+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+CommonKit.h"; sourceTree = "<group>"; };
+		6ADAE1F393E54AFDD838713AF41B3379 /* UIColor+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CommonKit.m"; sourceTree = "<group>"; };
+		6E975B4E53AE7B3D6937345561AC637B /* Pods-PSCommonKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PSCommonKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7035AB56B6C05F499E8F1C2C0E37CDE3 /* NSArray+LogCommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LogCommonKit.m"; sourceTree = "<group>"; };
+		7810166D5A1FD5DAAFDD1C65E139328D /* UITextView+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+CommonKit.m"; sourceTree = "<group>"; };
+		78536402F867C3F67D08481486259B8A /* UIView+PSIBInspectable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+PSIBInspectable.h"; sourceTree = "<group>"; };
+		7D81CAA4F445FEB24173A359DFE56E6E /* PSPointInSideButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PSPointInSideButton.h; sourceTree = "<group>"; };
+		7DB6785E6B99C88E5376794724950F4F /* PSLimitTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PSLimitTextField.h; sourceTree = "<group>"; };
+		82CD1A88CF5818D4AE54E533073C6950 /* UILabel+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CommonKit.m"; sourceTree = "<group>"; };
+		862B370F01E4CBE6D78F98F98845EEF0 /* UIImage+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CommonKit.m"; sourceTree = "<group>"; };
+		863CD5A65F2549D9B44AFF25AD92DDE3 /* Pods-PSCommonKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PSCommonKit_Tests.modulemap"; sourceTree = "<group>"; };
+		8B02B25C798A30FC6A3F53639DCB3D88 /* NSArray+LogCommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+LogCommonKit.h"; sourceTree = "<group>"; };
+		8F307AB634207775662EF43D33A3975F /* PSPopupMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PSPopupMenu.m; sourceTree = "<group>"; };
+		8FA69C34CE712F547704B2E13816AEE9 /* UIAlertController+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+CommonKit.m"; sourceTree = "<group>"; };
+		910CC9E28BBF9501FEE18A5851C517EA /* Pods-PSCommonKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PSCommonKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		985B395FA9145C056C0060DB6EDDDB2E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9913224A7C8481898CBACE9379BA3CC1 /* UILabel+PSIBInspectable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+PSIBInspectable.h"; sourceTree = "<group>"; };
+		99CBD3C93FC68EA4F10DB23AD3D69905 /* UIView+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+CommonKit.m"; sourceTree = "<group>"; };
+		9BE08250462DDA2E4C41420ECE40E3BC /* PSPopupMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PSPopupMenu.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F6912B6F2A431AFCCC108543CDF7EC5 /* PSCommonKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PSCommonKit-umbrella.h"; sourceTree = "<group>"; };
+		A6AE8D10EAF3684919C92CD1FE40DA3D /* Pods-PSCommonKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PSCommonKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		ABFF71046E342ADD2801F102D68F57D1 /* PSCommonKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PSCommonKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC04C078843C15B1C952D3B72C331E9D /* NSString+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+CommonKit.h"; sourceTree = "<group>"; };
+		B456D1DFFD148DADB8123542A0D79EA5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B67F9953501B2A42AB32E335E39BB19B /* PSCommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PSCommonKit.h; path = PSCommonKit/Classes/PSCommonKit.h; sourceTree = "<group>"; };
+		C017D4966603CACAB7C4FF4D8FC94C46 /* Pods-PSCommonKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PSCommonKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0D1215A5AF214352C76412DFA6F8DE2 /* NSString+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+CommonKit.m"; sourceTree = "<group>"; };
+		C4742A42ADA90001B59C1AC23649CDE1 /* PSCommonKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PSCommonKit.xcconfig; sourceTree = "<group>"; };
+		C7B3216E681695FD0ACC0187ECD213DF /* UITextField+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CommonKit.m"; sourceTree = "<group>"; };
+		CA687383D3637299111970FA490248A6 /* UIColor+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+CommonKit.h"; sourceTree = "<group>"; };
+		D67364CBAC378EE056E5E8B321E98408 /* NSDate+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CommonKit.m"; sourceTree = "<group>"; };
+		DAB8EF9FA1A73E4E957618FB3CC31F7C /* PSTaskTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PSTaskTimer.h; sourceTree = "<group>"; };
+		DE1357B6E2F70614D7BCB4F00DA47D54 /* NSLayoutConstraint+PSIBInspectable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PSIBInspectable.h"; sourceTree = "<group>"; };
+		DE569BB55984060B0264F84333B13D5A /* PSCommonKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PSCommonKit-dummy.m"; sourceTree = "<group>"; };
+		E0AFF45F2E039A26D4B157ADF3B60E18 /* Pods-PSCommonKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PSCommonKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		E5C6ECC3617B8D32DE8E4DC0B7A5D87D /* UIBarButtonItem+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CommonKit.h"; sourceTree = "<group>"; };
+		E76A8078AFFAF1F651174D10FF1273BC /* Pods_PSCommonKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PSCommonKit_Example.framework; path = "Pods-PSCommonKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99A6D55527782980110F6FF6024FF16 /* UITextField+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextField+CommonKit.h"; sourceTree = "<group>"; };
+		E9FDC7949EBFBF3617BCCF3F0AE1255B /* UIButton+PSDelayedClick.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PSDelayedClick.m"; sourceTree = "<group>"; };
+		EDA87FDAB860297275A3D011FFE5A3A1 /* UIButton+PSDelayedClick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+PSDelayedClick.h"; sourceTree = "<group>"; };
+		F314CE0C8BF289776460F17F61770FAC /* Pods-PSCommonKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PSCommonKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F469EC0765D9BE4BAF68D944A5974F38 /* NSLayoutConstraint+PSIBInspectable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PSIBInspectable.m"; sourceTree = "<group>"; };
+		F96D8A207FE60A30FC81B3D744B0E3B4 /* UIAlertController+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+CommonKit.h"; sourceTree = "<group>"; };
+		FA3F79195FD86450932CE25307FEC63E /* PSCommonKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PSCommonKit.modulemap; sourceTree = "<group>"; };
+		FA7A8308E8F945F997009C0637EA29A2 /* UIImageView+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CommonKit.h"; sourceTree = "<group>"; };
+		FC03722EF32D1B9C2AB51CD4BD2360F3 /* UIDevice+CommonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+CommonKit.m"; sourceTree = "<group>"; };
+		FE409FCDDBC4BCD01C82F8B924300496 /* UIDevice+CommonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+CommonKit.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4F0D08D08F36CE4CEFECEE7498DE5B3A /* Frameworks */ = {
+		6EB5140991ACE756CBEAB48D9332443B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				716F70903946866A12F8F7279630B002 /* Foundation.framework in Frameworks */,
+				78014C69AC079E0E26E7AAE372D0B9A0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		879F003CAD8630ADCDF3F73BAF045417 /* Frameworks */ = {
+		C131C500F04998EA118D88FB101A8DAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD51A2AFF8062FB1AC12F67BE1732D59 /* Foundation.framework in Frameworks */,
+				930DFB7E10A71F5B6BB0A1F20E43B4D2 /* Foundation.framework in Frameworks */,
+				5177004E9374BC36706E57D8976F5B06 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B85B0FE02563840298126B4BB262DBA6 /* Frameworks */ = {
+		E2BA609D2B327A7DFAAAD7DBA6307DC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EBD8A7D299265125CA084289C44AFCC /* Foundation.framework in Frameworks */,
+				77638E582BF2BCE91D234F9AFE28F65C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2823A7B17936BA5BE4AECD0C26DBABE0 /* Pods-PSCommonKit_Tests */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				928BCC80FE78CE26C1D136071793A01B /* Pods-PSCommonKit_Tests.modulemap */,
-				B7315605AAB5AE213256ECFF669C4850 /* Pods-PSCommonKit_Tests-acknowledgements.markdown */,
-				43B7758052382586DC1CB32417B5A70F /* Pods-PSCommonKit_Tests-acknowledgements.plist */,
-				F38ACBA27F2D1143DFA470FE5837AE05 /* Pods-PSCommonKit_Tests-dummy.m */,
-				7BB91CA74863A9C5815D7087C9D2B5DF /* Pods-PSCommonKit_Tests-Info.plist */,
-				104EADEED6487EB01750AF2F9329378A /* Pods-PSCommonKit_Tests-umbrella.h */,
-				004FDA690853C8C6628D0B7C8026B366 /* Pods-PSCommonKit_Tests.debug.xcconfig */,
-				16E9487E11BC507363B3189722A8077D /* Pods-PSCommonKit_Tests.release.xcconfig */,
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
 			);
-			name = "Pods-PSCommonKit_Tests";
-			path = "Target Support Files/Pods-PSCommonKit_Tests";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B5D9609A973DB4FF7205FA2FD4DC237 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0B9F8BD47467820D225F7D624F045F30 /* NSArray+CommonKit.h */,
+				05731C02B37F854BE5B00D58311019B9 /* NSArray+CommonKit.m */,
+				8B02B25C798A30FC6A3F53639DCB3D88 /* NSArray+LogCommonKit.h */,
+				7035AB56B6C05F499E8F1C2C0E37CDE3 /* NSArray+LogCommonKit.m */,
+				1370180D5A03AA0D37B637BB203FF13D /* NSDate+CommonKit.h */,
+				D67364CBAC378EE056E5E8B321E98408 /* NSDate+CommonKit.m */,
+				DE1357B6E2F70614D7BCB4F00DA47D54 /* NSLayoutConstraint+PSIBInspectable.h */,
+				F469EC0765D9BE4BAF68D944A5974F38 /* NSLayoutConstraint+PSIBInspectable.m */,
+				AC04C078843C15B1C952D3B72C331E9D /* NSString+CommonKit.h */,
+				C0D1215A5AF214352C76412DFA6F8DE2 /* NSString+CommonKit.m */,
+				F96D8A207FE60A30FC81B3D744B0E3B4 /* UIAlertController+CommonKit.h */,
+				8FA69C34CE712F547704B2E13816AEE9 /* UIAlertController+CommonKit.m */,
+				E5C6ECC3617B8D32DE8E4DC0B7A5D87D /* UIBarButtonItem+CommonKit.h */,
+				2CBC1AE61BFAC8211429FE97124FF768 /* UIBarButtonItem+CommonKit.m */,
+				53426FBAA592089E792A108E07B54A1E /* UIButton+CommonKit.h */,
+				4C98AD0747F3D061E8C7843A06404A39 /* UIButton+CommonKit.m */,
+				EDA87FDAB860297275A3D011FFE5A3A1 /* UIButton+PSDelayedClick.h */,
+				E9FDC7949EBFBF3617BCCF3F0AE1255B /* UIButton+PSDelayedClick.m */,
+				CA687383D3637299111970FA490248A6 /* UIColor+CommonKit.h */,
+				6ADAE1F393E54AFDD838713AF41B3379 /* UIColor+CommonKit.m */,
+				FE409FCDDBC4BCD01C82F8B924300496 /* UIDevice+CommonKit.h */,
+				FC03722EF32D1B9C2AB51CD4BD2360F3 /* UIDevice+CommonKit.m */,
+				052095F21ADD0DAA06FEA30A40FDA43D /* UIGestureRecognizer+CommonKit.h */,
+				100D77BAF0D28B8E3C1514415CDA53E8 /* UIGestureRecognizer+CommonKit.m */,
+				52668EB2FC10C531C33B09FEEA922B93 /* UIImage+CommonKit.h */,
+				862B370F01E4CBE6D78F98F98845EEF0 /* UIImage+CommonKit.m */,
+				FA7A8308E8F945F997009C0637EA29A2 /* UIImageView+CommonKit.h */,
+				332E6A8E9A5AB74D16B428E739A0FEE7 /* UIImageView+CommonKit.m */,
+				060694483746BFE4B4A6A14EB30B0E17 /* UIImageView+PSIBInspectable.h */,
+				35B2CEF559D75A29E8A9B58E29DCC9BD /* UIImageView+PSIBInspectable.m */,
+				0BCB1DBB68BD24D23E0C3DEC4729D97C /* UILabel+CommonKit.h */,
+				82CD1A88CF5818D4AE54E533073C6950 /* UILabel+CommonKit.m */,
+				9913224A7C8481898CBACE9379BA3CC1 /* UILabel+PSIBInspectable.h */,
+				2C41F12AE68E5B30BED80B971BE594D4 /* UILabel+PSIBInspectable.m */,
+				E99A6D55527782980110F6FF6024FF16 /* UITextField+CommonKit.h */,
+				C7B3216E681695FD0ACC0187ECD213DF /* UITextField+CommonKit.m */,
+				67892A7BAA7957CBA1837F53A6D31B4D /* UITextView+CommonKit.h */,
+				7810166D5A1FD5DAAFDD1C65E139328D /* UITextView+CommonKit.m */,
+				0593D5F460B0D04479E80EC40CA75C1B /* UIView+CommonKit.h */,
+				99CBD3C93FC68EA4F10DB23AD3D69905 /* UIView+CommonKit.m */,
+				78536402F867C3F67D08481486259B8A /* UIView+PSIBInspectable.h */,
+				3065377FF8BFBBF04412A351C8952764 /* UIView+PSIBInspectable.m */,
+			);
+			name = Category;
+			path = PSCommonKit/Classes/Category;
 			sourceTree = "<group>";
 		};
 		446A381C579F3DBB1C4EE3FEC14763D1 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A72CB495145380393AE7C8A312453310 /* Pods-PSCommonKit_Example */,
-				2823A7B17936BA5BE4AECD0C26DBABE0 /* Pods-PSCommonKit_Tests */,
+				ADEA00833B11A43A617933A96E75B8A8 /* Pods-PSCommonKit_Example */,
+				DCBBA2DE879301695279354CEDB552C2 /* Pods-PSCommonKit_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -229,124 +278,82 @@
 		49E9DB3380B3A356F4EC5103D083E5F8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				709134E74DE1F910946AB7299128CEBB /* PSCommonKit */,
+				5CFB659C66445EBC7CCA0F0884F88A30 /* PSCommonKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		709134E74DE1F910946AB7299128CEBB /* PSCommonKit */ = {
+		5CFB659C66445EBC7CCA0F0884F88A30 /* PSCommonKit */ = {
 			isa = PBXGroup;
 			children = (
-				B3DF0F64EE512F40DCEA1810FC3DD90D /* PSCommonDefine.h */,
-				8A720A14F8DCD55DCDCC7C830F73E0D6 /* PSCommonKit.h */,
-				9E4E6129A556FF2400803B1DE318FA1B /* Category */,
-				FC0ACFBE67CB2C03F9E923697650D581 /* Pod */,
-				B6375EF6D9CFAA8A981F84D8A1FFB614 /* Subclass */,
-				F2B2427A3E66C40E6F3B335F463F58CD /* Support Files */,
+				3A146F3DC0DCA23458C413566EAE5F4A /* PSCommonDefine.h */,
+				B67F9953501B2A42AB32E335E39BB19B /* PSCommonKit.h */,
+				3B5D9609A973DB4FF7205FA2FD4DC237 /* Category */,
+				E64B7A4895EBB7B3C9EBCCCBC04EE62B /* Pod */,
+				84D922C7DD4AC7EF7658929C2424187E /* Subclass */,
+				909B1E6B3B9D542139DE04B313763380 /* Support Files */,
 			);
 			name = PSCommonKit;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		86EF5EDC57FA99FABF39629AB8061C85 /* Products */ = {
+		84D922C7DD4AC7EF7658929C2424187E /* Subclass */ = {
 			isa = PBXGroup;
 			children = (
-				CC8EE8944B2CF48531B80CA835367677 /* Pods_PSCommonKit_Example.framework */,
-				FC3255A453DED69658CB7F00A16C923F /* Pods_PSCommonKit_Tests.framework */,
-				BB3E59C0F392E2D1589C59406E66E8CC /* PSCommonKit.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9E4E6129A556FF2400803B1DE318FA1B /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				E40CE84728CD2410D12A5EC1316C2AF7 /* NSArray+CommonKit.h */,
-				C50F7436C1CCAC41E9F37ABC504971F8 /* NSArray+CommonKit.m */,
-				E21BBC5D1DB94B3954AAE76126247AD1 /* NSArray+LogCommonKit.h */,
-				27B95048F2AE8B2E4CCFC39B1525C7C9 /* NSArray+LogCommonKit.m */,
-				2D2208B096B802B3A3DA507A3A2895D4 /* NSDate+CommonKit.h */,
-				70B7C379EFB4ACFCDD9882CBA2DC00BF /* NSDate+CommonKit.m */,
-				ECFE038398C1624A0CF22806ABCAE6B2 /* NSLayoutConstraint+PSIBInspectable.h */,
-				54B04534B62502B178391B6DEDC0A89D /* NSLayoutConstraint+PSIBInspectable.m */,
-				914CB6F1A5301521008E759588C78693 /* NSString+CommonKit.h */,
-				55E381F5964A34C44A35F71588EA7620 /* NSString+CommonKit.m */,
-				EEE5EE897D2E601922B0E20AA0153275 /* UIAlertController+CommonKit.h */,
-				8F6235C6B7E70469FAF46CB176A1B21B /* UIAlertController+CommonKit.m */,
-				4B107CBBFFF9D99BBFB538908DD7AE4C /* UIBarButtonItem+CommonKit.h */,
-				2EC532576AFD1944E50F8AD5D7F1D83E /* UIBarButtonItem+CommonKit.m */,
-				695A689807A621F8CF355859731EC44D /* UIButton+CommonKit.h */,
-				5B301E6B2F41BBF7CF51B5BC2EA9C2DF /* UIButton+CommonKit.m */,
-				9DBA38A0F772807B530D856CB7F3FE9F /* UIButton+PSDelayedClick.h */,
-				3D74E551E5F27CB3455419567EDB4CA4 /* UIButton+PSDelayedClick.m */,
-				51D3D35DF9C27BA0DDC61C044DAC9E2F /* UIColor+CommonKit.h */,
-				BCD2769FA4F3DEAE54FAE0BA7DF03188 /* UIColor+CommonKit.m */,
-				3D17C937BD3EC5D8F8A690850112DA1D /* UIDevice+CommonKit.h */,
-				A1B95D719DA52235E4D8AD894A57D32D /* UIDevice+CommonKit.m */,
-				03796E0697DCF2E10A81F6B65553105E /* UIGestureRecognizer+CommonKit.h */,
-				40FA50FCA8E3F1015EF345C7DCAAB8E9 /* UIGestureRecognizer+CommonKit.m */,
-				B484371D3B3C2640822C0258724E39DC /* UIImage+CommonKit.h */,
-				236F4C43209B907398D3C3382307D86D /* UIImage+CommonKit.m */,
-				5D65AE8557F94AE987315D0856A33164 /* UIImageView+CommonKit.h */,
-				933473F0A1BCB943FA6B6213A2A6F430 /* UIImageView+CommonKit.m */,
-				FFEF28804BAD655C7AA033BF0625E39A /* UIImageView+PSIBInspectable.h */,
-				AA8456AE771F4B0C460B8591C74E07AA /* UIImageView+PSIBInspectable.m */,
-				C40B6C95CDC69CFCA7310BF4B6410CDD /* UILabel+CommonKit.h */,
-				E0CD658DF4BE6B56395C37BB06BD2059 /* UILabel+CommonKit.m */,
-				A8CF85DA7ABA7FA81B9AC1023AF9F099 /* UILabel+PSIBInspectable.h */,
-				FBB606E6FF09E7CB0446E1A9CDBD81B3 /* UILabel+PSIBInspectable.m */,
-				E99FD81A197014794DDC7F8E21C32F6E /* UITextField+CommonKit.h */,
-				E3287041B99CEA400DDAA37F0D81E76B /* UITextField+CommonKit.m */,
-				907F89D2445B7D6EFECAD11D47A2CDDA /* UITextView+CommonKit.h */,
-				E60C29550B50946FC081F27CD8ED71AC /* UITextView+CommonKit.m */,
-				CFC1C262C6CB1BD7BA1F438A7D437357 /* UIView+CommonKit.h */,
-				74971282036E081A053E9D851FEA323F /* UIView+CommonKit.m */,
-				571E582A4C48324C6197726995DF486B /* UIView+PSIBInspectable.h */,
-				665048FC221886108311E493B56B3B2E /* UIView+PSIBInspectable.m */,
-			);
-			name = Category;
-			path = PSCommonKit/Classes/Category;
-			sourceTree = "<group>";
-		};
-		A72CB495145380393AE7C8A312453310 /* Pods-PSCommonKit_Example */ = {
-			isa = PBXGroup;
-			children = (
-				54B1BC1C3975EC3C8AB01FE0458282FF /* Pods-PSCommonKit_Example.modulemap */,
-				B5EA4430FB44FF682638583228790BA7 /* Pods-PSCommonKit_Example-acknowledgements.markdown */,
-				7C3900A440EF6228CB1BD318042271AB /* Pods-PSCommonKit_Example-acknowledgements.plist */,
-				DD237F56C2BCE53B6B14D103DD7FA9B5 /* Pods-PSCommonKit_Example-dummy.m */,
-				2BC037D0D4D8DD391FC28CF0F8CF4D50 /* Pods-PSCommonKit_Example-frameworks.sh */,
-				4DDB1E7AD8B4655BD588C598A1C46EB4 /* Pods-PSCommonKit_Example-Info.plist */,
-				DF921A58B2F5D9158AF524BE668D4029 /* Pods-PSCommonKit_Example-umbrella.h */,
-				693F2DE8C175710C0C30D33F8CDB9FBF /* Pods-PSCommonKit_Example.debug.xcconfig */,
-				AB877E6A99435B46BFB8BD0B2EF7E518 /* Pods-PSCommonKit_Example.release.xcconfig */,
-			);
-			name = "Pods-PSCommonKit_Example";
-			path = "Target Support Files/Pods-PSCommonKit_Example";
-			sourceTree = "<group>";
-		};
-		B6375EF6D9CFAA8A981F84D8A1FFB614 /* Subclass */ = {
-			isa = PBXGroup;
-			children = (
-				FBEB048E94078913878D3BF4791F3098 /* PSLimitTextField.h */,
-				DFA4038440FDABF9A67B9960957034DF /* PSLimitTextField.m */,
-				7A26C0CD6C12BB458762514B3163020E /* PSPointInSideButton.h */,
-				EA50A1E1E46A9BF43E19476AF5E04FAA /* PSPointInSideButton.m */,
-				1A9DBB49D1D651A6A018165DD665B1B7 /* PSPopupMenu.h */,
-				DD22CC9665D0B59E22BD5039E929A376 /* PSPopupMenu.m */,
-				5969EB30AB8FA0793F470EBE6DCB679D /* PSTaskTimer.h */,
-				CE6D0C2FBD9BF38077F152EA9B0C642F /* PSTaskTimer.m */,
+				381E713BD66E16719F5FD82237A2D332 /* LECountDownTimer.h */,
+				170B2070823D440DA8D9BC9744D55F3E /* LECountDownTimer.m */,
+				7DB6785E6B99C88E5376794724950F4F /* PSLimitTextField.h */,
+				3D1BD34ED383283B27F79A9BEA8E56F8 /* PSLimitTextField.m */,
+				7D81CAA4F445FEB24173A359DFE56E6E /* PSPointInSideButton.h */,
+				22D5527F82C9F08860D3C1BCCA400E8A /* PSPointInSideButton.m */,
+				9BE08250462DDA2E4C41420ECE40E3BC /* PSPopupMenu.h */,
+				8F307AB634207775662EF43D33A3975F /* PSPopupMenu.m */,
+				DAB8EF9FA1A73E4E957618FB3CC31F7C /* PSTaskTimer.h */,
+				275F5D57BE29AA808457D922C554A304 /* PSTaskTimer.m */,
 			);
 			name = Subclass;
 			path = PSCommonKit/Classes/Subclass;
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		909B1E6B3B9D542139DE04B313763380 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				FA3F79195FD86450932CE25307FEC63E /* PSCommonKit.modulemap */,
+				C4742A42ADA90001B59C1AC23649CDE1 /* PSCommonKit.xcconfig */,
+				DE569BB55984060B0264F84333B13D5A /* PSCommonKit-dummy.m */,
+				285885AE05B2FE52C0EBF3C508E285B8 /* PSCommonKit-Info.plist */,
+				32B50F366BB5AFAF2FCEA3659F1DC667 /* PSCommonKit-prefix.pch */,
+				9F6912B6F2A431AFCCC108543CDF7EC5 /* PSCommonKit-umbrella.h */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PSCommonKit";
+			sourceTree = "<group>";
+		};
+		9AFA04A58805B8C8F404D0240BCED674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E76A8078AFFAF1F651174D10FF1273BC /* Pods_PSCommonKit_Example.framework */,
+				2C69B98720D345422A4CD559530533EE /* Pods_PSCommonKit_Tests.framework */,
+				0C3C8B333F9689F6E10A56155EDB58FA /* PSCommonKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADEA00833B11A43A617933A96E75B8A8 /* Pods-PSCommonKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				66EBF9685051ED327CA4A113E67DFA4D /* Pods-PSCommonKit_Example.modulemap */,
+				3AC602DC2A930284209850B29FA822EB /* Pods-PSCommonKit_Example-acknowledgements.markdown */,
+				F314CE0C8BF289776460F17F61770FAC /* Pods-PSCommonKit_Example-acknowledgements.plist */,
+				2CB5568C32D13901551BE692AAA1E33D /* Pods-PSCommonKit_Example-dummy.m */,
+				6E975B4E53AE7B3D6937345561AC637B /* Pods-PSCommonKit_Example-frameworks.sh */,
+				1A3D873007294A7EF5B42046F7DBA0A6 /* Pods-PSCommonKit_Example-Info.plist */,
+				E0AFF45F2E039A26D4B157ADF3B60E18 /* Pods-PSCommonKit_Example-umbrella.h */,
+				34511B9275A392CB5BA85B3E2D8E6AA4 /* Pods-PSCommonKit_Example.debug.xcconfig */,
+				3B58D477CFB2EC131F9BF0EEEB7BAD2A /* Pods-PSCommonKit_Example.release.xcconfig */,
+			);
+			name = "Pods-PSCommonKit_Example";
+			path = "Target Support Files/Pods-PSCommonKit_Example";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -354,40 +361,43 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				49E9DB3380B3A356F4EC5103D083E5F8 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				86EF5EDC57FA99FABF39629AB8061C85 /* Products */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				9AFA04A58805B8C8F404D0240BCED674 /* Products */,
 				446A381C579F3DBB1C4EE3FEC14763D1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		DCBBA2DE879301695279354CEDB552C2 /* Pods-PSCommonKit_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				863CD5A65F2549D9B44AFF25AD92DDE3 /* Pods-PSCommonKit_Tests.modulemap */,
+				2392F58A74CE6DE7EDD036B74354F71E /* Pods-PSCommonKit_Tests-acknowledgements.markdown */,
+				05B6A90C3019FD19721ADDE715A71E14 /* Pods-PSCommonKit_Tests-acknowledgements.plist */,
+				910CC9E28BBF9501FEE18A5851C517EA /* Pods-PSCommonKit_Tests-dummy.m */,
+				25F0169A9A3957A29619E6D59875B811 /* Pods-PSCommonKit_Tests-Info.plist */,
+				A6AE8D10EAF3684919C92CD1FE40DA3D /* Pods-PSCommonKit_Tests-umbrella.h */,
+				C017D4966603CACAB7C4FF4D8FC94C46 /* Pods-PSCommonKit_Tests.debug.xcconfig */,
+				1B3F0A5717FA454A91C4EB51267C3A20 /* Pods-PSCommonKit_Tests.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = "Pods-PSCommonKit_Tests";
+			path = "Target Support Files/Pods-PSCommonKit_Tests";
 			sourceTree = "<group>";
 		};
-		F2B2427A3E66C40E6F3B335F463F58CD /* Support Files */ = {
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				71B8B30370795BA8D601836022CF93F6 /* PSCommonKit.modulemap */,
-				CEFABD8CAC9755CF43A815A4FED9FACA /* PSCommonKit.xcconfig */,
-				49FC6A0FD0B03F00AA9FE0DA6C98DDB3 /* PSCommonKit-dummy.m */,
-				6CB9E30787D57C7FE0DE4627527AA683 /* PSCommonKit-Info.plist */,
-				B4906AA292BB9CA7C238022BAC3BCA99 /* PSCommonKit-prefix.pch */,
-				9DB6C1CD72665FD59A10F8ACA6CA1D97 /* PSCommonKit-umbrella.h */,
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/PSCommonKit";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		FC0ACFBE67CB2C03F9E923697650D581 /* Pod */ = {
+		E64B7A4895EBB7B3C9EBCCCBC04EE62B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				22CA8CDBBB29AE2131885A4038B55FFC /* LICENSE */,
-				93E3FD809CEE8C6D24BE0644BBC27800 /* PSCommonKit.podspec */,
-				39A4DCDE8DC136EF030AA1A007C6DF47 /* README.md */,
+				985B395FA9145C056C0060DB6EDDDB2E /* LICENSE */,
+				ABFF71046E342ADD2801F102D68F57D1 /* PSCommonKit.podspec */,
+				B456D1DFFD148DADB8123542A0D79EA5 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -395,68 +405,107 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2B020BAA7DA56857ED0E5C2CBCAA1C2E /* Headers */ = {
+		545796FB142DACB7166122084F313B21 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09C376C54CC6D6065662E722C246F5D4 /* Pods-PSCommonKit_Tests-umbrella.h in Headers */,
+				44D98CF013C36B60EA8FD8028691058B /* Pods-PSCommonKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B05B7950518B47C7AD6EE87DDAA56298 /* Headers */ = {
+		741800DCE4840FDD8037849520A6D84E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C919C81A4FFD4A4FB24C9C09C35C5F26 /* Pods-PSCommonKit_Example-umbrella.h in Headers */,
+				893F849951CD9B0BEACE9D4F91C4ADFA /* Pods-PSCommonKit_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D49F6A9355387CABBF1196315C513DFD /* Headers */ = {
+		F034B5D7E65138257C953E114822FCA5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E02F91DCA9CC984A9C5C3C49A0B9D23F /* NSArray+CommonKit.h in Headers */,
-				04E001262E1FA969EBFCF3D50988124F /* NSArray+LogCommonKit.h in Headers */,
-				31EB1473A2344FE839A31A39B87FADDC /* NSDate+CommonKit.h in Headers */,
-				DA8F0C6FF6DF4275D963E7367F3EEF98 /* NSLayoutConstraint+PSIBInspectable.h in Headers */,
-				41C47F2559DF3BFCB4A355883BB233EF /* NSString+CommonKit.h in Headers */,
-				5996DB0A1EBF8F3FAC3A94513E7DD9D5 /* PSCommonDefine.h in Headers */,
-				8CE23F6AEAC1D064E511F31D8A116743 /* PSCommonKit-umbrella.h in Headers */,
-				CD237923D5247ABD0A7DC3242AF5B726 /* PSCommonKit.h in Headers */,
-				DD71D4C01035FFA05FB87DAEBA460B5E /* PSLimitTextField.h in Headers */,
-				CAD18F74FA8050BD89690D79F123E559 /* PSPointInSideButton.h in Headers */,
-				E5776E5BA7B28F8926BAB68042200FAA /* PSPopupMenu.h in Headers */,
-				A5529AB98AFA6F1634A4B576D1D7B7C4 /* PSTaskTimer.h in Headers */,
-				41F711DE57946FF5DB4E5182BDDAFF82 /* UIAlertController+CommonKit.h in Headers */,
-				1CC1F3765E1A713270E7D18FA2D454AB /* UIBarButtonItem+CommonKit.h in Headers */,
-				52BDA04AFE46DB9BC7BE63F07DF3DDB5 /* UIButton+CommonKit.h in Headers */,
-				C09C89C737701AB35B9CB1F47400921F /* UIButton+PSDelayedClick.h in Headers */,
-				63E8A546E312DEC54274824E6A44B8BB /* UIColor+CommonKit.h in Headers */,
-				C189A0AF37F5FCB8A79530E1F10BEC9C /* UIDevice+CommonKit.h in Headers */,
-				14EA822DC74EE1EE79FD647C634549CA /* UIGestureRecognizer+CommonKit.h in Headers */,
-				675C62CCDBDC80D29E6BC98AADEE499C /* UIImage+CommonKit.h in Headers */,
-				CCACD5B96E50BCC6DD34684CC7C2A550 /* UIImageView+CommonKit.h in Headers */,
-				FC81CD209C0C6273A225D4D81300558C /* UIImageView+PSIBInspectable.h in Headers */,
-				B8774D4E9358F4B9390243FA1C33C3AD /* UILabel+CommonKit.h in Headers */,
-				9FCD10AD961F42FFE08805F0162B5E03 /* UILabel+PSIBInspectable.h in Headers */,
-				5C08B0A647B7B532D2D8E3E067040C62 /* UITextField+CommonKit.h in Headers */,
-				5283203610B9E385B96636B1CF93806F /* UITextView+CommonKit.h in Headers */,
-				44BFEC48A5A40DB2CC890DE2F749E7D2 /* UIView+CommonKit.h in Headers */,
-				BD30051A8B7B199F0B8210EA7C455DB0 /* UIView+PSIBInspectable.h in Headers */,
+				1C4156FEFF152C57540981F52E6462FE /* LECountDownTimer.h in Headers */,
+				BC9EAD74695E6EEF7137272192A2C9AF /* NSArray+CommonKit.h in Headers */,
+				5BEB34FC119866473718B243BAD1D423 /* NSArray+LogCommonKit.h in Headers */,
+				5CCA724696D505951F84D774C7D13AB8 /* NSDate+CommonKit.h in Headers */,
+				3497054D9A71D773966E63487811D860 /* NSLayoutConstraint+PSIBInspectable.h in Headers */,
+				32F895E051EE363424957137E43E79BD /* NSString+CommonKit.h in Headers */,
+				98A9E378BF61D24F7B0AAC02BCE1E5B1 /* PSCommonDefine.h in Headers */,
+				F9F355C2E2FF5F5A3567CE8B84E8E02F /* PSCommonKit-umbrella.h in Headers */,
+				6417BF68BAEEE4428275B7006AF81D8F /* PSCommonKit.h in Headers */,
+				FCF4AD6F40D4FE647EBC5723CF39AFEE /* PSLimitTextField.h in Headers */,
+				87C30382490B0F40F229072046D93748 /* PSPointInSideButton.h in Headers */,
+				F61EFFD1848964CD9EEDDBF6F01A0AD6 /* PSPopupMenu.h in Headers */,
+				CF59997A79EFBEED6632D61044DE012D /* PSTaskTimer.h in Headers */,
+				CE4B9F303F14CFB6B5D535395595A510 /* UIAlertController+CommonKit.h in Headers */,
+				EFF2F8D594D04DCBA21D0A444F3892AB /* UIBarButtonItem+CommonKit.h in Headers */,
+				B9482AFB433FC7A2D846D0D7D6F3B52C /* UIButton+CommonKit.h in Headers */,
+				0D3CA3CD510860DFFE2DEAAA7DDBE2EF /* UIButton+PSDelayedClick.h in Headers */,
+				DBAB444B22FD02E7EDFA8A10B3557D1C /* UIColor+CommonKit.h in Headers */,
+				33B1F92DC8728726A72B688AD39802B6 /* UIDevice+CommonKit.h in Headers */,
+				0C56A71B29C4CD0D50D2F8BBF327862C /* UIGestureRecognizer+CommonKit.h in Headers */,
+				BB8FD1CE2545985A996ED4C0E2430945 /* UIImage+CommonKit.h in Headers */,
+				019EAA45C27C7B02F8C34C92586C976E /* UIImageView+CommonKit.h in Headers */,
+				040547F267F984111BDE692ABC541910 /* UIImageView+PSIBInspectable.h in Headers */,
+				18C87E90DD65959C2B0A99132815BB1A /* UILabel+CommonKit.h in Headers */,
+				F32ADDD5322835E018B06ADA5612ECD6 /* UILabel+PSIBInspectable.h in Headers */,
+				AB7B0EA52EE26BEA045B94D49210F86C /* UITextField+CommonKit.h in Headers */,
+				14EDD6A7888A4C314E33EA7496E0EB31 /* UITextView+CommonKit.h in Headers */,
+				614027975139C64147CEBFE50D4AA66B /* UIView+CommonKit.h in Headers */,
+				1308B3A9369987E4A4292A3F763495A6 /* UIView+PSIBInspectable.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		B2B66916D9BC0EABD9E29389DF8768E5 /* PSCommonKit */ = {
+		311876D1CD0F5A7F77B21253AA265436 /* Pods-PSCommonKit_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 962CF7B536DEBB3B8D903ED560105AF6 /* Build configuration list for PBXNativeTarget "PSCommonKit" */;
+			buildConfigurationList = BAC2C1BF9478CB9DFB50490B5328A2F0 /* Build configuration list for PBXNativeTarget "Pods-PSCommonKit_Tests" */;
 			buildPhases = (
-				D49F6A9355387CABBF1196315C513DFD /* Headers */,
-				E083FB95D599CE0EC7AD7EBD077E92CE /* Sources */,
-				B85B0FE02563840298126B4BB262DBA6 /* Frameworks */,
-				90F08EF8C41A328289E5594757C32B23 /* Resources */,
+				741800DCE4840FDD8037849520A6D84E /* Headers */,
+				BDE785E22C784B74EA3CC8AA34DA8422 /* Sources */,
+				E2BA609D2B327A7DFAAAD7DBA6307DC1 /* Frameworks */,
+				EF83F259111BBBA102DA9A4B29C74266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C30759831BF88847C33197124880410 /* PBXTargetDependency */,
+			);
+			name = "Pods-PSCommonKit_Tests";
+			productName = "Pods-PSCommonKit_Tests";
+			productReference = 2C69B98720D345422A4CD559530533EE /* Pods_PSCommonKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A38CF8A102B2FACB3A7B1B353F8B963F /* Pods-PSCommonKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA7DB3052C4B34A92A06457BBADEE551 /* Build configuration list for PBXNativeTarget "Pods-PSCommonKit_Example" */;
+			buildPhases = (
+				545796FB142DACB7166122084F313B21 /* Headers */,
+				E0133B76B010377A318325115D7EA4AF /* Sources */,
+				6EB5140991ACE756CBEAB48D9332443B /* Frameworks */,
+				F25F999335CE05C21549BB7F1C2E0651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A1B626E15A607C2401304DBA06CE460 /* PBXTargetDependency */,
+			);
+			name = "Pods-PSCommonKit_Example";
+			productName = "Pods-PSCommonKit_Example";
+			productReference = E76A8078AFFAF1F651174D10FF1273BC /* Pods_PSCommonKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF50D1B1C47EE2CCF7F52C3CF746C119 /* PSCommonKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89EB7485C5254EE31D671EDD8A1F02A8 /* Build configuration list for PBXNativeTarget "PSCommonKit" */;
+			buildPhases = (
+				F034B5D7E65138257C953E114822FCA5 /* Headers */,
+				9FE843E2E5C309CBCA2640A9965B3879 /* Sources */,
+				C131C500F04998EA118D88FB101A8DAB /* Frameworks */,
+				8D58E6186FF6A542BBA41C7364A03D05 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -464,45 +513,7 @@
 			);
 			name = PSCommonKit;
 			productName = PSCommonKit;
-			productReference = BB3E59C0F392E2D1589C59406E66E8CC /* PSCommonKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DC0A7135C46BF48C16209A629DE79B13 /* Pods-PSCommonKit_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 81CD157F60BE016B77B06D1F2B0065DD /* Build configuration list for PBXNativeTarget "Pods-PSCommonKit_Tests" */;
-			buildPhases = (
-				2B020BAA7DA56857ED0E5C2CBCAA1C2E /* Headers */,
-				B4997DF347AF028C51BC8E09C10D961C /* Sources */,
-				879F003CAD8630ADCDF3F73BAF045417 /* Frameworks */,
-				4F0F8AC3DA5322E9AA54291D6797ECAB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				32D8DE4BE79B95F82F4B446C39A5B362 /* PBXTargetDependency */,
-			);
-			name = "Pods-PSCommonKit_Tests";
-			productName = "Pods-PSCommonKit_Tests";
-			productReference = FC3255A453DED69658CB7F00A16C923F /* Pods_PSCommonKit_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FBEF446DDF6A8A84A57B6AFF0D64969C /* Pods-PSCommonKit_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 501C7605D5CB64B121D88565FE215BD5 /* Build configuration list for PBXNativeTarget "Pods-PSCommonKit_Example" */;
-			buildPhases = (
-				B05B7950518B47C7AD6EE87DDAA56298 /* Headers */,
-				D9431D17B090C0088775F011AF3A36C0 /* Sources */,
-				4F0D08D08F36CE4CEFECEE7498DE5B3A /* Frameworks */,
-				1D1D7A8F3F02D8FBA35BCCA791EF5B74 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8DA7B682BBBE9475FD6276FEA0A6BFEB /* PBXTargetDependency */,
-			);
-			name = "Pods-PSCommonKit_Example";
-			productName = "Pods-PSCommonKit_Example";
-			productReference = CC8EE8944B2CF48531B80CA835367677 /* Pods_PSCommonKit_Example.framework */;
+			productReference = 0C3C8B333F9689F6E10A56155EDB58FA /* PSCommonKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -511,8 +522,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -522,33 +533,33 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 86EF5EDC57FA99FABF39629AB8061C85 /* Products */;
+			productRefGroup = 9AFA04A58805B8C8F404D0240BCED674 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FBEF446DDF6A8A84A57B6AFF0D64969C /* Pods-PSCommonKit_Example */,
-				DC0A7135C46BF48C16209A629DE79B13 /* Pods-PSCommonKit_Tests */,
-				B2B66916D9BC0EABD9E29389DF8768E5 /* PSCommonKit */,
+				A38CF8A102B2FACB3A7B1B353F8B963F /* Pods-PSCommonKit_Example */,
+				311876D1CD0F5A7F77B21253AA265436 /* Pods-PSCommonKit_Tests */,
+				EF50D1B1C47EE2CCF7F52C3CF746C119 /* PSCommonKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1D1D7A8F3F02D8FBA35BCCA791EF5B74 /* Resources */ = {
+		8D58E6186FF6A542BBA41C7364A03D05 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F0F8AC3DA5322E9AA54291D6797ECAB /* Resources */ = {
+		EF83F259111BBBA102DA9A4B29C74266 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90F08EF8C41A328289E5594757C32B23 /* Resources */ = {
+		F25F999335CE05C21549BB7F1C2E0651 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -558,76 +569,77 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B4997DF347AF028C51BC8E09C10D961C /* Sources */ = {
+		9FE843E2E5C309CBCA2640A9965B3879 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				066D2E1D991B65CB051A72AC4C756BCF /* Pods-PSCommonKit_Tests-dummy.m in Sources */,
+				DB1318CAF2B0F7932971E32FFEF72EDD /* LECountDownTimer.m in Sources */,
+				71F965428AF9487A7614797007C02D15 /* NSArray+CommonKit.m in Sources */,
+				34E60D01F310B6947A374A49E954C3E2 /* NSArray+LogCommonKit.m in Sources */,
+				1FBD34DCB10AA8C1046CAEFED3794001 /* NSDate+CommonKit.m in Sources */,
+				6EEAF849DD0BB732EEDC6224D4F5BBCE /* NSLayoutConstraint+PSIBInspectable.m in Sources */,
+				AACB5363510303459F5CD0D3A6B60EAF /* NSString+CommonKit.m in Sources */,
+				739BCF9AE6E6A71D9C92DAFED946D2B5 /* PSCommonKit-dummy.m in Sources */,
+				3D0AD2F46AF5898062846F45FD0C273B /* PSLimitTextField.m in Sources */,
+				E45F3B6710F22606BF82445A859D9C4C /* PSPointInSideButton.m in Sources */,
+				E4F7AA0B47645973A396AD17C5FBFAB3 /* PSPopupMenu.m in Sources */,
+				E7F4ED987ED56122751F93929BB22FCF /* PSTaskTimer.m in Sources */,
+				27381526AEF7C9CCA585D898D1004799 /* UIAlertController+CommonKit.m in Sources */,
+				49421D497EB058F910DB893C049063B4 /* UIBarButtonItem+CommonKit.m in Sources */,
+				88A55FE63939299059C808DA9FEBF3AD /* UIButton+CommonKit.m in Sources */,
+				E292CD96DB81D8CF08732933BC54A300 /* UIButton+PSDelayedClick.m in Sources */,
+				14ECB437B9DFA7744C4DC4268D2F6BC8 /* UIColor+CommonKit.m in Sources */,
+				E7206224B2944E0025C13A56157F0516 /* UIDevice+CommonKit.m in Sources */,
+				57348CF8A9620368038588637A21E236 /* UIGestureRecognizer+CommonKit.m in Sources */,
+				B54D4D1E49E6C792C21033CCA94359C1 /* UIImage+CommonKit.m in Sources */,
+				1576796574D7B6D15F494197E355CA53 /* UIImageView+CommonKit.m in Sources */,
+				0BF1C0FCF972633B4EFC7F48DC4615BF /* UIImageView+PSIBInspectable.m in Sources */,
+				A5CD63CE6F3BB80722DECABBEFC6B7C7 /* UILabel+CommonKit.m in Sources */,
+				D9EA69A57CEECC32AD52932C1D074A18 /* UILabel+PSIBInspectable.m in Sources */,
+				BBCC0437753B7B621522B3667510C929 /* UITextField+CommonKit.m in Sources */,
+				A9B247C494095909442783405603E91C /* UITextView+CommonKit.m in Sources */,
+				CD33F7C5850199611B5E4AFEBED098F0 /* UIView+CommonKit.m in Sources */,
+				DCA977037C4DE715782EFE462BF8B889 /* UIView+PSIBInspectable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9431D17B090C0088775F011AF3A36C0 /* Sources */ = {
+		BDE785E22C784B74EA3CC8AA34DA8422 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4BA67A935B7BCFA9B206B8AB0817746 /* Pods-PSCommonKit_Example-dummy.m in Sources */,
+				0A9210AE1A621A6838ABEB834D3F9697 /* Pods-PSCommonKit_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E083FB95D599CE0EC7AD7EBD077E92CE /* Sources */ = {
+		E0133B76B010377A318325115D7EA4AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5BD8ADC9AC3F71DA7CD2B2B9A259727 /* NSArray+CommonKit.m in Sources */,
-				EF13DB311F7840AC343FA604B7F9E7C3 /* NSArray+LogCommonKit.m in Sources */,
-				46D1F6A4472E4D00CA71D95090D9B440 /* NSDate+CommonKit.m in Sources */,
-				E82B1C0165CB061D3D1D520DC351DAA0 /* NSLayoutConstraint+PSIBInspectable.m in Sources */,
-				7B94416863906B3E91D0AC9E1FA81227 /* NSString+CommonKit.m in Sources */,
-				4BF0CC79FC81897AEEF7D19427EE76ED /* PSCommonKit-dummy.m in Sources */,
-				8375526B28EFB95B56425FD01047D8ED /* PSLimitTextField.m in Sources */,
-				0A110594452CE986F938B00B94999BB6 /* PSPointInSideButton.m in Sources */,
-				FF2C03F2D7E51309D13AA92AC5F60E9E /* PSPopupMenu.m in Sources */,
-				79C015E739A343C94E0B0C0A1AF0231F /* PSTaskTimer.m in Sources */,
-				934D329D2E43DD106B300EEF5EC3BA5B /* UIAlertController+CommonKit.m in Sources */,
-				F24366734E969D7C98C8A89B3971E5B3 /* UIBarButtonItem+CommonKit.m in Sources */,
-				BEC31F0441E8A727ECC27467FC888EAA /* UIButton+CommonKit.m in Sources */,
-				E7CADCC470DC2FE7F204FB2510D86F8D /* UIButton+PSDelayedClick.m in Sources */,
-				E2017FC74924E298E7797B2DDE43B90C /* UIColor+CommonKit.m in Sources */,
-				8004D0546D43C693354288E58F572358 /* UIDevice+CommonKit.m in Sources */,
-				9F50FC28C1485812192705D780F0E70B /* UIGestureRecognizer+CommonKit.m in Sources */,
-				7791E199AA093BD209197CDD859EF976 /* UIImage+CommonKit.m in Sources */,
-				0BE9B35061C8DFDA17337CDB4BB09AEB /* UIImageView+CommonKit.m in Sources */,
-				0DF7DFF818CA4CDE75AD9B9986AE4A11 /* UIImageView+PSIBInspectable.m in Sources */,
-				BDA42438A6D2475C6F601D5787864FFB /* UILabel+CommonKit.m in Sources */,
-				8F312F730B5C4281B1577C9AFB80AB36 /* UILabel+PSIBInspectable.m in Sources */,
-				923A77C1EB457E41814F7E3D47788234 /* UITextField+CommonKit.m in Sources */,
-				B2DC067339A7E459945ED0017072B9DC /* UITextView+CommonKit.m in Sources */,
-				71BCDADB4F1C501726C4012D4D13BAC9 /* UIView+CommonKit.m in Sources */,
-				1141FB707FB94C8095575974EB22E635 /* UIView+PSIBInspectable.m in Sources */,
+				9DEAF818FCD73B9C91F5C7EAF3818140 /* Pods-PSCommonKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		32D8DE4BE79B95F82F4B446C39A5B362 /* PBXTargetDependency */ = {
+		7C30759831BF88847C33197124880410 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-PSCommonKit_Example";
-			target = FBEF446DDF6A8A84A57B6AFF0D64969C /* Pods-PSCommonKit_Example */;
-			targetProxy = 9AA12AA5933C5B0FC10ACB2BBCCBEF46 /* PBXContainerItemProxy */;
+			target = A38CF8A102B2FACB3A7B1B353F8B963F /* Pods-PSCommonKit_Example */;
+			targetProxy = 8324D8F8A5ACE62A78CAF33EF3C2A75B /* PBXContainerItemProxy */;
 		};
-		8DA7B682BBBE9475FD6276FEA0A6BFEB /* PBXTargetDependency */ = {
+		8A1B626E15A607C2401304DBA06CE460 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PSCommonKit;
-			target = B2B66916D9BC0EABD9E29389DF8768E5 /* PSCommonKit */;
-			targetProxy = E7E11220E608A654C5AEA5692341B316 /* PBXContainerItemProxy */;
+			target = EF50D1B1C47EE2CCF7F52C3CF746C119 /* PSCommonKit */;
+			targetProxy = 1A4FAC0837D6A39B6E70EF4272711762 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		34F1FB65BEE05BA7A4861F47B436E205 /* Debug */ = {
+		239DE5791D24532B533E28A328627B5A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 693F2DE8C175710C0C30D33F8CDB9FBF /* Pods-PSCommonKit_Example.debug.xcconfig */;
+			baseConfigurationReference = 3B58D477CFB2EC131F9BF0EEEB7BAD2A /* Pods-PSCommonKit_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -653,14 +665,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		3D9573F0BF44B264D90A4CBE6BE31B46 /* Debug */ = {
+		46837259235C99402A2D2A22829868FB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 004FDA690853C8C6628D0B7C8026B366 /* Pods-PSCommonKit_Tests.debug.xcconfig */;
+			baseConfigurationReference = C017D4966603CACAB7C4FF4D8FC94C46 /* Pods-PSCommonKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -744,16 +757,18 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		604512D8B97257AF631081BBA869312B /* Debug */ = {
+		5B91E7520C7A0389A53F217DE645E749 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEFABD8CAC9755CF43A815A4FED9FACA /* PSCommonKit.xcconfig */;
+			baseConfigurationReference = 34511B9275A392CB5BA85B3E2D8E6AA4 /* Pods-PSCommonKit_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -763,18 +778,19 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PSCommonKit/PSCommonKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PSCommonKit/PSCommonKit-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-PSCommonKit_Example/Pods-PSCommonKit_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/PSCommonKit/PSCommonKit.modulemap";
-				PRODUCT_MODULE_NAME = PSCommonKit;
-				PRODUCT_NAME = PSCommonKit;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PSCommonKit_Example/Pods-PSCommonKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -845,9 +861,9 @@
 			};
 			name = Debug;
 		};
-		83B21EAAA67BEF0570C23BAACFD64B88 /* Release */ = {
+		9195850AA55694D574B2BAA6F5D31A49 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEFABD8CAC9755CF43A815A4FED9FACA /* PSCommonKit.xcconfig */;
+			baseConfigurationReference = C4742A42ADA90001B59C1AC23649CDE1 /* PSCommonKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -877,11 +893,10 @@
 			};
 			name = Release;
 		};
-		943CCEF71CC84E5111E3F80278F3B4EC /* Release */ = {
+		ADC987FA3CDF75708548CCB8F8D2D09F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB877E6A99435B46BFB8BD0B2EF7E518 /* Pods-PSCommonKit_Example.release.xcconfig */;
+			baseConfigurationReference = C4742A42ADA90001B59C1AC23649CDE1 /* PSCommonKit.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -891,29 +906,27 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-PSCommonKit_Example/Pods-PSCommonKit_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/PSCommonKit/PSCommonKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PSCommonKit/PSCommonKit-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-PSCommonKit_Example/Pods-PSCommonKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/PSCommonKit/PSCommonKit.modulemap";
+				PRODUCT_MODULE_NAME = PSCommonKit;
+				PRODUCT_NAME = PSCommonKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		A6358A7F83FA8AF6E200380BBA485050 /* Release */ = {
+		EB59A3C3504440CC5A71107ECA228BF7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16E9487E11BC507363B3189722A8077D /* Pods-PSCommonKit_Tests.release.xcconfig */;
+			baseConfigurationReference = 1B3F0A5717FA454A91C4EB51267C3A20 /* Pods-PSCommonKit_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -957,29 +970,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		501C7605D5CB64B121D88565FE215BD5 /* Build configuration list for PBXNativeTarget "Pods-PSCommonKit_Example" */ = {
+		89EB7485C5254EE31D671EDD8A1F02A8 /* Build configuration list for PBXNativeTarget "PSCommonKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				34F1FB65BEE05BA7A4861F47B436E205 /* Debug */,
-				943CCEF71CC84E5111E3F80278F3B4EC /* Release */,
+				ADC987FA3CDF75708548CCB8F8D2D09F /* Debug */,
+				9195850AA55694D574B2BAA6F5D31A49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81CD157F60BE016B77B06D1F2B0065DD /* Build configuration list for PBXNativeTarget "Pods-PSCommonKit_Tests" */ = {
+		BAC2C1BF9478CB9DFB50490B5328A2F0 /* Build configuration list for PBXNativeTarget "Pods-PSCommonKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3D9573F0BF44B264D90A4CBE6BE31B46 /* Debug */,
-				A6358A7F83FA8AF6E200380BBA485050 /* Release */,
+				46837259235C99402A2D2A22829868FB /* Debug */,
+				EB59A3C3504440CC5A71107ECA228BF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		962CF7B536DEBB3B8D903ED560105AF6 /* Build configuration list for PBXNativeTarget "PSCommonKit" */ = {
+		CA7DB3052C4B34A92A06457BBADEE551 /* Build configuration list for PBXNativeTarget "Pods-PSCommonKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				604512D8B97257AF631081BBA869312B /* Debug */,
-				83B21EAAA67BEF0570C23BAACFD64B88 /* Release */,
+				5B91E7520C7A0389A53F217DE645E749 /* Debug */,
+				239DE5791D24532B533E28A328627B5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -11,9 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LECountDownTimer : NSObject
 
-+ (void)startTimerWithSeconds:(long long)seconds
-			 withSecondsBlock:(void(^)(long long seconds))secondsBlock
-				 withEndBlock:(nullable void(^)(void))endBlock;
++ (void)startAsyncTimerWithSeconds:(long long)seconds
+				  withSecondsBlock:(void(^)(long long seconds))secondsBlock
+					  withEndBlock:(nullable void(^)(void))endBlock;
 
 + (void)endTimer;
 
