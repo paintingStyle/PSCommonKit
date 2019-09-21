@@ -50,13 +50,21 @@
 
 - (void)ps_setTextFieldPlaceholderColor:(UIColor *)color {
 	
-	[self setValue:color forKeyPath:@"_placeholderLabel.textColor"];
+	// iOS 13  UITextField 的私有属性 _placeholderLabel 被禁止访问了
+	NSMutableAttributedString *placeholderString = [[NSMutableAttributedString alloc] initWithString:self.placeholder
+																						  attributes:@{NSForegroundColorAttributeName:color ? :[UIColor lightGrayColor]}];
+	self.attributedPlaceholder = placeholderString;
 }
 
 - (void)ps_setTextFieldPlaceholderColor:(UIColor *)color font:(UIFont *)font {
 	
-	[self setValue:color forKeyPath:@"_placeholderLabel.textColor"];
-	[self setValue:font forKeyPath:@"_placeholderLabel.font"];
+	NSDictionary *attributes = @{
+								 NSForegroundColorAttributeName:color ?:[UIColor lightGrayColor],
+								 NSFontAttributeName:font ?:[UIFont systemFontOfSize:16]
+								 };
+	NSMutableAttributedString *placeholderString = [[NSMutableAttributedString alloc] initWithString:self.placeholder
+																						  attributes:attributes];
+	self.attributedPlaceholder = placeholderString;
 }
 
 /**
