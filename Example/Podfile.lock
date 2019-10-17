@@ -1,5 +1,5 @@
 PODS:
-  - PSCommonKit (0.1.10)
+  - PSCommonKit (0.1.13)
 
 DEPENDENCIES:
   - PSCommonKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  PSCommonKit: 15b763f691aad2b6ea0784f0943d805fb417a912
+  PSCommonKit: d5e5df3a840e6f1b410621db323d00c4060c1bcf
 
 PODFILE CHECKSUM: 3fa163d1988bcb0743c64ecd1e9466613cda3e0f
 
